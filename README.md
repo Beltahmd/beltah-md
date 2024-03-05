@@ -8,7 +8,7 @@ Zokou is a multi-device bot designed to enhance your WhatsApp conversations with
 
 - **File Download:** Zokou can download audio and video files from links you send, making it easy to share them with your contacts.
 
-- **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to Zokou. You need the api key from api.lolhuman.xyz; an API key is provided in case you don't have one: `9d05ccc5f58e1cf30937`
+- **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to Zokou.
 
 - **Group Management:** Zokou offers group management features, such as adding or removing members, configuring rules, and other settings.
 
@@ -33,7 +33,7 @@ Zokou is a multi-device bot designed to enhance your WhatsApp conversations with
 3. Deploy
    - **Heroku Deployment:**
      1. If you don't have a **Heroku** account, click [**here**](https://id.heroku.com/login) to create one.
-     2. Click [**here**](https://dashboard.heroku.com/new?template=https://github.com/Faouz995/Zokou-2.0-englishV) to deploy the bot on **Heroku**.
+     2. Click [**here**](https://dashboard.heroku.com/new?template=https://github.com/Luffy2ndAccount/Zokou-english-v) to deploy the bot on **Heroku**.
 
 ## Contributions
 
