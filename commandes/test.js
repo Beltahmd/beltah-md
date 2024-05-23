@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "test", reaction: "😌", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "test", reaction: "✨", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = 'Hello my name is  *Zokou* \n\n ' + "i'm a whatsapp bot multi-device";
-    let d = ' by *Djalega++*';
+    let z = 'Hello my name is  *SP-ZK-MD* \n\n ' + "i'm a whatsapp bot multi-device";
+    let d = ' by *Supremus Prod*';
     let varmess = z + d;
-    var img = 'https://wallpapercave.com/uwp/uwp3842939.jpeg';
+    var img = 'https://telegra.ph/file/dc212de0b7cdcdc3511ed.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
