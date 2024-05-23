@@ -1,116 +1,94 @@
 const { zokou } = require('../framework/zokou');
-const { addOrUpdateDataInAlive, getDataFromAlive, addOrUpdateDataInTeste, getDataFromTeste } = require('../bdd/alive');
+const {addOrUpdateDataInAlive , getDataFromAlive} = require('../bdd/alive')
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
 zokou(
-  {
-    nomCom: 'alive',
-    categorie: 'General'
-  }, async (dest, zk, commandeOptions) => {
-    const { ms, arg, repondre, superUser } = commandeOptions;
+    {
+        nomCom : 'alive',
+        categorie : 'General'
+        
+    },async (dest,zk,commandeOptions) => {
 
-    const data = await getDataFromAlive();
+ const {ms , arg, repondre,superUser} = commandeOptions;
 
-    if (!arg || !arg[0] || arg.join('') === '') {
-      if (data) {
-        const { message, lien } = data;
+ const data = await getDataFromAlive();
+
+ if (!arg || !arg[0] || arg.join('') === '') {
+
+    if(data) {
+       
+        const {message , lien} = data;
+
 
         var mode = "public";
         if ((s.MODE).toLocaleLowerCase() != "yes") {
-          mode = "private";
+            mode = "private";
         }
+      
+    
+     
+    moment.tz.setDefault('Etc/GMT');
 
-        moment.tz.setDefault('Etc/GMT');
+// Créer une date et une heure en GMT
+const temps = moment().format('HH:mm:ss');
+const date = moment().format('DD/MM/YYYY');
 
-        const temps = moment().format('HH:mm:ss');
-        const date = moment().format('DD/MM/YYYY');
-
-        const alivemsg = `
+    const alivemsg = `
 *Owner* : ${s.OWNER_NAME}
 *Mode* : ${mode}
 *Date* : ${date}
 *Hours(GMT)* : ${temps}
 
-${message}
+ ${message}
+ 
+ 
+ *Zokou_MD version 2.0*`
 
-*Zokou_MD version 2.0*`;
-
-        if (lien.match(/\.(mp4|gif)$/i)) {
-          try {
-            zk.sendMessage(dest, { video: { url: lien }, caption: alivemsg }, { quoted: ms });
-          } catch (e) {
-            console.log("🥵🥵 Menu erreur " + e);
-            repondre("🥵🥵 Menu erreur " + e);
-          }
-        } else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
-          try {
-            zk.sendMessage(dest, { image: { url: lien }, caption: alivemsg }, { quoted: ms });
-          } catch (e) {
-            console.log("🥵🥵 Menu erreur " + e);
-            repondre("🥵🥵 Menu erreur " + e);
-          }
-        } else {
-          repondre(alivemsg);
-        }
-      } else {
-        if (!superUser) {
-          repondre("there is no alive for this bot");
-          return;
-        }
-
-        await repondre("You have not yet saved your alive, to do this; enter after alive your message and your image or video link in this context: .alive message;lien");
-        repondre("don't do fake things :)");
-      }
-    } else {
-      if (!superUser) {
-        repondre("Only the owner can modify the alive");
-        return;
-      }
-
-      const texte = arg.join(' ').split(';')[0];
-      const tlien = arg.join(' ').split(';')[1];
-
-      await addOrUpdateDataInAlive(texte, tlien);
-
-      repondre('message alive refresh successfully');
+ if (lien.match(/\.(mp4|gif)$/i)) {
+    try {
+        zk.sendMessage(dest, { video: { url: lien }, caption: alivemsg }, { quoted: ms });
     }
-  }
-);
+    catch (e) {
+        console.log("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu erreur " + e);
+    }
+} 
+// Checking for .jpeg or .png
+else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
+    try {
+        zk.sendMessage(dest, { image: { url: lien }, caption: alivemsg }, { quoted: ms });
+    }
+    catch (e) {
+        console.log("🥵🥵 Menu erreur " + e);
+        repondre("🥵🥵 Menu erreur " + e);
+    }
+} 
+else {
+    
+    repondre(alivemsg);
+    
+}
 
-zokou(
-  {
-    nomCom: 'teste',
-    categorie: 'General'
-  }, async (dest, zk, commandeOptions) => {
-    const { ms, arg, repondre, superUser } = commandeOptions;
+    } else {
+        if(!superUser) { repondre("there is no alive for this bot") ; return};
 
-    const data = await getDataFromTeste();
+      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
+         repondre("don't do fake thinks :)")
+     }
+ } else {
 
-    if (!arg || !arg[0] || arg.join('') === '') {
-      if (data) {
-        const { message, lien } = data;
+    if(!superUser) { repondre ("Only the owner can  modify the alive") ; return};
 
-        var mode = "public";
-        if ((s.MODE).toLocaleLowerCase() != "yes") {
-          mode = "private";
-        }
+  
+    const texte = arg.join(' ').split(';')[0];
+    const tlien = arg.join(' ').split(';')[1]; 
 
-        moment.tz.setDefault('Etc/GMT');
 
-        const temps = moment().format('HH:mm:ss');
-        const date = moment().format('DD/MM/YYYY');
+    
+await addOrUpdateDataInAlive(texte , tlien)
 
-        const testeMsg = `
-*Owner* : ${s.OWNER_NAME}
-*Mode* : ${mode}
-*Date* : ${date}
-*Hours(GMT)* : ${temps}
+repondre('message alive refresh successfully')
 
-${message}
-
-*Zokou_MD version 2.0*`;
-
-        if (lien.match(/\.(mp4|gif)$/i)) {
-          try {
-            zk.sendMessage
+}
+    });
