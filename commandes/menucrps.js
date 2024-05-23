@@ -10,10 +10,10 @@ zokou(
 
         if (!arg || arg.length === 0)  {
             const lien = 'https://telegra.ph/file/9df3bb1999c29a8b8885e.jpg';
-            const msg = `░░░░░░░░░░░░░░░░░░░
-═══════════════════
-.          *| CRPS • MENU |*
-═══════════════════
+            const msg = `░░░░░░░░░░░░░░░░░░
+══════════════════
+.         *| CRPS • MENU |*
+══════════════════
 Bienvenue dans le menu principal tout voir et savoir sur les activités CRPS.
 
 ◩ Guide
@@ -24,8 +24,8 @@ Bienvenue dans le menu principal tout voir et savoir sur les activités CRPS.
 ◩ Générale
 ◩ Id rôliste
 
-░░░░░░░░░░░░░░░░░░░
-═══════════════════
+░░░░░░░░░░░░░░░░░░
+══════════════════
                『 🪀 𝗖𝗥𝗣𝗦 𝗧𝗘𝗔𝗠 🪀 』`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
   
