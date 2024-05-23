@@ -62,7 +62,7 @@ zokou(
 
         if (!arg || arg.length === 0)  {
             const lien = 'https://telegra.ph/file/baa8f6b353fabebab64bb.jpg';
-            const msg = `『 🪀🎮 𝗖𝗥𝗣𝗦 𝗧𝗢𝗣 🏆🔝 』`;
+            const msg = `.     『 🪀🎮 𝗖𝗥𝗣𝗦 𝗧𝗢𝗣 🏆🔝 』`;
             zk.sendMessage(dest, { image: { url: lien }, caption: msg }, { quoted: ms });
   
         }
@@ -457,7 +457,7 @@ zokou(
         const { repondre, arg, ms } = commandeOptions;
 
         if (!arg || arg.length === 0)  {
-            // const lien = 'https://telegra.ph/file/1aea5a846d5bcb1670914.jpg';
+            const lien = 'https://telegra.ph/file/1aea5a846d5bcb1670914.jpg';
             const msg = `░░░░░░░░░░░░░░░░░░░
 ═══════════════════
 |🏦💰𝐂𝐑𝐏𝐒 𝐓𝐫𝐚𝐧𝐬𝐚𝐜𝐭🛒🛍️|
