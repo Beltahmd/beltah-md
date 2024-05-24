@@ -17,14 +17,14 @@ const sleep =  (ms) =>{
     const { ms, repondre, arg, nomAuteurMessage, superUser } = commandeOptions;
   
     if (!superUser) {
-      repondre('Only Mods can use this command'); return;
+      repondre('✨😌 Seuls les niveaux Kage ou nommer peuvent utiliser cette commande.'); return;
     }
     //const apikey = conf.APILOLHUMAIN
   
-   // if (apikey === null || apikey === 'null') { repondre('Veillez vérifier votre apikey ou si vous en avez pas , veiller crée un compte sur api.lolhuman.xyz et vous en procurer une.'); return; };
+   // if (apikey === null || apikey === 'null') { repondre('✨🙂 Veillez vérifier votre apikey ou si vous en avez pas , veiller crée un compte sur api.lolhuman.xyz et vous en procurer une.'); return; };
   
     if (!arg[0]) {
-      repondre("put a telegramme stickers link ");
+      repondre("✨🙂 mettre un lien d'autocollants de télégramme.");
       return;
     }
   
@@ -70,7 +70,7 @@ const sleep =  (ms) =>{
   
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "Zokou-md",
+            author: "SP-ZK-MD",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
@@ -90,17 +90,17 @@ const sleep =  (ms) =>{
        }
   
     } catch (e) {
-      repondre("we got an error \n", e);
+      repondre("nous avons une erreur \n", e);
     }
   });
 
 zokou({ nomCom: "crew", categorie: "Mods" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg, auteurMessage, superUser, auteurMsgRepondu, msgRepondu } = commandeOptions;
 
-  if (!superUser) { repondre("only modds can use this command"); return };
+  if (!superUser) { repondre("✨😗 ton aura est trop faible pour utiliser cette commande."); return };
 
-  if (!arg[0]) { repondre('Please enter the name of the group to create'); return };
-  if (!msgRepondu) { repondre('Please mention a member added '); return; }
+  if (!arg[0]) { repondre('✨🙂 Veuillez saisir le nom du nouvel empire à créer.'); return };
+  if (!msgRepondu) { repondre('✨🤔 Merci de mentionner un sujet à ajouté.'); return; }
 
   const name = arg.join(" ")
 
@@ -115,7 +115,7 @@ zokou({ nomCom: "left", categorie: "Mods" }, async (dest, zk, commandeOptions) =
   const { ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage } = commandeOptions;
   if (!verifGroupe) { repondre("group only"); return };
   if (!superUser) {
-    repondre("order reserved for the owner");
+    repondre("✨ commande réservée au Hokage John S.");
     return;
   }
 
@@ -127,13 +127,13 @@ zokou({ nomCom: "join", categorie: "Mods" }, async (dest, zk, commandeOptions) =
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage } = commandeOptions;
 
   if (!superUser) {
-    repondre("command reserved for the bot owner");
+    repondre("✨ commande réservé au Hokage John S.");
     return;
   }
   let result = arg[0].split('https://chat.whatsapp.com/')[1] ;
  await zk.groupAcceptInvite(result) ;
   
-      repondre(`Succes`).catch((e)=>{
+      repondre(`✨Succes`).catch((e)=>{
   repondre('Unknown error')
 })
 
@@ -145,7 +145,7 @@ zokou({ nomCom: "jid", categorie: "Mods" }, async (dest, zk, commandeOptions) =>
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
          if (!superUser) {
-    repondre("command reserved for the bot owner");
+    repondre("✨ Commande réservé au Hokage John S.");
     return;
   }
               if(!msgRepondu) {
@@ -164,13 +164,13 @@ zokou({ nomCom: "block", categorie: "Mods" }, async (dest, zk, commandeOptions) 
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
          if (!superUser) {
-    repondre("command reserved for the bot owner");
+    repondre("✨ Commande réservé au Hokage John S.");
     return;
   }
              
               if(!msgRepondu) { 
                 if(verifGroupe) {
-                  repondre('Be sure to mention the person to block'); return
+                  repondre('✨🙇‍♂️ Designer une personne à punir Hokage.'); return
                 } ;
                 jid = dest
 
@@ -188,12 +188,12 @@ zokou({ nomCom: "unblock", categorie: "Mods" }, async (dest, zk, commandeOptions
   const { arg, ms, repondre, verifGroupe, msgRepondu, verifAdmin, superUser, auteurMessage,auteurMsgRepondu } = commandeOptions;
 
          if (!superUser) {
-    repondre("command reserved for the bot owner");
+    repondre("✨ Commande réservé au Hokage John S.");
     return;
   }
               if(!msgRepondu) { 
                 if(verifGroupe) {
-                  repondre('Please mention the person to be unlocked'); return
+                  repondre('✨🧘‍♂️ Designer une personne à épargner Hokage !'); return
                 } ;
                 jid = dest
 
@@ -213,10 +213,10 @@ zokou({ nomCom: "kickall", categorie: 'Group', reaction: "📣" }, async (dest, 
   const metadata = await zk.groupMetadata(dest) ;
  
 
-  if (!verifGroupe) { repondre("✋🏿 ✋🏿this command is reserved for groups ❌"); return; }
+  if (!verifGroupe) { repondre("✨✋🏿 Ne gaspillé pas votre chakra."); return; }
   if (superUser || auteurMessage == metadata.owner) { 
   
-   repondre('No_admin members will be removed from the group. You have 5 seconds to reclaim your choice by restarting the bot.') ;
+   repondre('✨🙂 Seuls les plus puissants seront épargnées, vous avez 5 secondes pour révoqué votre choix <reboot>.') ;
    await sleep(5000)
   let membresGroupe = verifGroupe ? await infosGroupe.participants : "";
 try {
@@ -236,8 +236,8 @@ await zk.groupParticipantsUpdate(
     await sleep(500)
     
   }  
-} catch (e) {repondre("I need administration rights")} } else {
-  repondre("Order reserved for the group owner for security reasons"); return
+} catch (e) {repondre("✨ Kurama réclame le poste d'admin si vous souhaitez utiliser son chakra.")} } else {
+  repondre("✨ Jutsu réservé au Kage."); return
 }
 });
 
@@ -249,10 +249,10 @@ zokou({
     const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser } = commandeOptions;
 
     
-  if (!superUser) {repondre('This command is only allowed to the bot owner') ; return}
+  if (!superUser) {repondre('✨ Jutsu réservé au Kage.') ; return}
     if (!arg[0]) {
         // Function 'reply' must be defined to send a response.
-        repondre(`mention the victim by typing ${prefixe}ban add/del to ban/unban the victim`);
+        repondre(`✨ Ciblé la victime et composé le mudrad ${prefixe}ban add/del ou ban/unban la victime.`);
         return;
     };
 
@@ -262,7 +262,7 @@ zokou({
 
            
    let youareban = await isUserBanned(auteurMsgRepondu)
-           if(youareban) {repondre('This user is already banned') ; return}
+           if(youareban) {repondre('✨ Cet utilisateur porte déjà la malédiction de ban.') ; return}
                
            addUserToBanList(auteurMsgRepondu)
                 break;
@@ -271,19 +271,19 @@ zokou({
     if (estbanni) {
         
         removeUserFromBanList(auteurMsgRepondu);
-        repondre('This user is now free.');
+        repondre('✨🙂 Cet utilisateur est désormais libre.');
     } else {
-      repondre('This user is not banned.');
+      repondre('✨😂 Cet utilisateur n'est pas maudit.');
     }
     break;
 
 
             default:
-                repondre('bad option');
+                repondre('✨ Mauvais mudrad');
                 break;
         }
     } else {
-        repondre('mention the victim')
+        repondre('✨ Ciblé la victime.')
         return;
     }
 });
@@ -298,11 +298,11 @@ zokou({
     const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser,verifGroupe } = commandeOptions;
 
     
-  if (!superUser) {repondre('This command is only allowed to the bot owner') ; return};
-  if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
+  if (!superUser) {repondre('✨ Commande réservé au Hokage John S.') ; return};
+  if(!verifGroupe) {repondre('✨ Jutsu réservé aux grandes nations.' ) ; return };
     if (!arg[0]) {
         // Function 'reply' must be defined to send a response.
-        repondre(`type ${prefix}bangroup add/del to ban/unban the group`);
+        repondre(`✨ Composé le mudrad ${prefix}bangroup add/del ou ban/unban la nation.`);
         return;
     };
     const groupalreadyBan = await isGroupBanned(dest)
@@ -312,7 +312,7 @@ zokou({
 
            
 
-            if(groupalreadyBan) {repondre('This group is already banned') ; return}
+            if(groupalreadyBan) {repondre('✨ Cette nation est maudite.') ; return}
                
             addGroupToBanList(dest)
 
@@ -321,11 +321,11 @@ zokou({
                       
     if (groupalreadyBan) {
       removeGroupFromBanList(dest)
-      repondre('This group is now free.');
+      repondre('✨ Cette nation est désormais libre.');
         
     } else {
        
-      repondre('This group is not banned.');
+      repondre('✨ Cette nation n'est pas maudite.');
     }
     break;
 
@@ -347,10 +347,10 @@ zokou({
 
   
 if (superUser || verifAdmin) { 
-if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
+if(!verifGroupe) {repondre('✨ Cet jutsu est réservé aux Kage.' ) ; return };
   if (!arg[0]) {
       // Function 'reply' must be defined to send a response.
-      repondre(`type ${prefix}onlyadmin add/del to ban/unban the group`);
+      repondre(`✨ Composé le mudrad ${prefix}onlyadmin add/del to ban/unban the group`);
       return;
   };
   const groupalreadyBan = await isGroupOnlyAdmin(dest)
@@ -360,7 +360,7 @@ if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
 
          
 
-          if(groupalreadyBan) {repondre('This group is already in onlyadmin mode') ; return}
+          if(groupalreadyBan) {repondre('✨ Cette nation est déjà réservé aux kage.') ; return}
              
           addGroupToOnlyAdminList(dest)
 
@@ -369,11 +369,11 @@ if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
                     
   if (groupalreadyBan) {
     removeGroupFromOnlyAdminList(dest)
-    repondre('This group is now free.');
+    repondre('✨ Cette nation est désormais libre.');
       
   } else {
      
-    repondre('This group is not in onlyadmin mode.');
+    repondre('✨ Cette nation n'est pas réservé aux Kage.');
   }
   break;
 
@@ -382,7 +382,7 @@ if(!verifGroupe) {repondre('order reservation for groups' ) ; return };
               repondre('bad option');
               break;
       }
-} else { repondre('You are not entitled to this order')}
+} else { repondre('✨ Vous ne pouvez pas maîtriser cet jutsu.')}
 });
 
 zokou({
@@ -393,10 +393,10 @@ zokou({
   const { ms, arg, auteurMsgRepondu, msgRepondu , repondre,prefixe,superUser } = commandeOptions;
 
   
-if (!superUser) {repondre('This command is only allowed to the bot owner') ; return}
+if (!superUser) {repondre('✨ Jutsu réservé au Hokage John S.') ; return}
   if (!arg[0]) {
       // Function 'reply' must be defined to send a response.
-      repondre(`mention the person by typing ${prefix}sudo add/del`);
+      repondre(`✨ Ciblé la victime et composé le mudrad ${prefix}sudo add/del`);
       return;
   };
 
@@ -406,7 +406,7 @@ if (!superUser) {repondre('This command is only allowed to the bot owner') ; ret
 
          
  let youaresudo = await issudo(auteurMsgRepondu)
-         if(youaresudo) {repondre('This user is already sudo') ; return}
+         if(youaresudo) {repondre('✨ Cet ninja est déjà Anbu.') ; return}
              
          addSudoNumber(auteurMsgRepondu)
          repondre('succes')
@@ -416,19 +416,19 @@ if (!superUser) {repondre('This command is only allowed to the bot owner') ; ret
   if (estsudo) {
       
       removeSudoNumber(auteurMsgRepondu);
-      repondre('This user is now non-sudo.');
+      repondre('✨ Cet ninja n'est plus Anbu.');
   } else {
-    repondre('This user is not sudo.');
+    repondre('✨ Cet ninja n'est pas Anbu.');
   }
   break;
 
 
           default:
-              repondre('bad option');
+              repondre('✨ Mauvais mudrad');
               break;
       }
   } else {
-      repondre('mention the victim')
+      repondre('✨ Ciblé la victime.')
       return;
   }
 });
@@ -507,10 +507,10 @@ zokou({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
   
       zk.sendMessage(auteurMessage,msg)
   
-      } else { repondre('Mention the message that you want to save') }
+      } else { repondre('✨ Mentionnez le message que vous souhaitez enregistrer.') }
   
   } else {
-    repondre('only mods can use this command')
+    repondre('✨ seuls les kage peuvent utiliser cet jutsu.')
   }
   
 
@@ -556,10 +556,10 @@ zokou({
 Type: ${mtype}
 Link: ${url}
 
-*Instructions:*
+*Mudrad :*
 
-To activate or modify the mention, follow this syntax: mention link type message
-The different types are audio, video, image, and sticker.
+Pour activer ou modifier la mention, suivez cette syntaxe : mention lien type message
+Les différents types sont audio, vidéo, image et autocollant.
 Example: mention https://static.animecorner.me/2023/08/op2.jpg image Hi, my name is Luffy
 
 To stop the mention, use mention stop`;
@@ -585,8 +585,8 @@ To stop the mention, use mention stop`;
                   repondre('mention updated') ;
               })
         } else {
-          repondre(`*Instructions:*
-          To activate or modify the mention, follow this syntax: mention link type message. The different types are audio, video, image, and sticker.`)
+          repondre(`*Mudrad :*
+          Pour activer ou modifier la mention, suivez cette syntaxe : mention lien type message. Les différents types sont audio, vidéo, image et autocollant.`)
      } 
     
     } else if ( arg.length === 1 && arg[0] == 'stop') {
@@ -597,6 +597,6 @@ To stop the mention, use mention stop`;
         })
     }
     else {
-        repondre(`Please make sure to follow the instructions`) ;
+        repondre(`✨ Veuillez vous assurer de suivre la composition du mudrad.`) ;
     }
 })
