@@ -95,6 +95,6 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("✨ S'il vous plaît regardé en pm/dm/ib.")
-  await zk.sendMessage(auteurMessage,{text : `https://whatsapp.com/channel/0029VafonsZHFxP0iY6zn30f`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `https://whatsapp.com/channel/0029VafonsZHFxP0iY6zn30`},{quoted :ms})
 
 })
