@@ -762,7 +762,7 @@ ${metadata.desc}`;
                   zk.sendMessage(crons[i].group_id, { image : { url : './media/chrono.webp'} , caption: "Hello, it's time to close the group; sayonara." });
 
                 }, {
-                    timezone: "Africa/Abidjan"
+                    timezone: "Africa/Nairobi"
                   });
               }
         
@@ -779,7 +779,7 @@ ${metadata.desc}`;
 
                  
                 },{
-                    timezone: "Africa/Abidjan"
+                    timezone: "Africa/Nairobi"
                   });
               }
         
@@ -812,10 +812,10 @@ ${metadata.desc}`;
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Connexion en cours...");
+                console.log("ℹ️ Connecting to your account...");
             }
             else if (connection === 'open') {
-                console.log("✅ connexion reussie! ☺️");
+                console.log("✅ connected successfully to your WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
@@ -828,7 +828,7 @@ ${metadata.desc}`;
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
                             require(__dirname + "/commandes/" + fichier);
-                            console.log(fichier + " installé ✔️");
+                            console.log(fichier + " installed successfully✔️");
                         }
                         catch (e) {
                             console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
@@ -853,20 +853,20 @@ ${metadata.desc}`;
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `╔════◇
-║ 『𝐙𝐨𝐤𝐨𝐮-𝐌𝐃』
-║    Prefix : [ ${prefixe} ]
-║    Mode :${md}
-║    Total Commandes : ${evt.cm.length}︎
-╚══════════════════╝
+                let cmsg = `╔══════◇
+║ 𝙱𝙴𝙻𝚃𝙰𝙷 𝚂𝙿𝙴𝙴𝙳𝚈 𝙱𝙾𝚃 𝙸𝚂 𝙽𝙾𝚆 𝙰𝙲𝚃𝙸𝚅𝙴...
+║    𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑
+║    𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${prefixe} ]
+║    𝙼𝚘𝚍𝚎 : ${md}
+║    𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${evt.cm.length}︎
+╚════════════════════╝
 
 ╔═════◇
-
-
- if there are somes error you can tell us :) 
- thanks you for choosing zokou MD
-
-╚══════════════════╝`;
+║𝙵𝚘𝚕𝚕𝚘𝚠 𝚘𝚞𝚛 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 𝚋𝚢 𝚝𝚢𝚙𝚒𝚗𝚐 :
+║${prefixe} 𝚜𝚞𝚙𝚙𝚘𝚛𝚝
+║
+║𝙼𝚊𝚍𝚎 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑,𝙵𝚛𝚊𝚗𝚌𝚎 𝚔𝚒𝚗𝚐,𝙶𝚒𝚏𝚝𝚎𝚍
+╚════════════════════╝`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
