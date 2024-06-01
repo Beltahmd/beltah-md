@@ -1,16 +1,16 @@
 {
-  "name":"Zokou-2.0",
-  "description":"bot whatsapp développé par djalega++",
+  "name":"ʙᴇʟᴛᴀʜ-ᴛᴇᴄʜ-ʙᴏᴛ",
+  "description":"𝙷𝚎𝚕𝚕𝚘 👋, 𝙸 𝚊𝚖 𝚂𝚙𝚎𝚎𝚍𝚢 𝙱𝚘𝚝 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 𝚝𝚑𝚎 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑 𝚃𝚎𝚊𝚖.",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://raw.githubusercontent.com/djalega8000/Zokou-2.0/main/Zokou.jpg",
-  "repository":"https://github.com/djalega8000/Zokou-2.0",
+  "logo":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+  "repository":"https://github.com/Beltahmd/Speedy-bot",
   "succes_url":"/",
   "stack":"container",
   "env":{
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":"#",
+      "value":"+",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -21,7 +21,7 @@
     }, "AUTO_DOWNLOAD_STATUS":
     {
       "description":"Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
     ,
@@ -35,21 +35,21 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Zokou-MD",
+      "value":"ʙᴇʟᴛᴀʜ-ᴛᴇᴄʜ-ʙᴏᴛ",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://i.pinimg.com/736x/0a/70/6f/0a706f90d6a1fb39919aedfbb7fdd8d3.jpg",
+      "value":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
       "required":false
        
      },
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Djalega++"
+    "value": "Beltah Tech"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "22891733300"
+    "value": "254114141192,254737681758"
   },
     "WARN_COUNT":
   {
