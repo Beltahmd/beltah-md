@@ -28,9 +28,9 @@ Fork and give a star to our Respiratory.
 
 
 ✨STARS: ${repoInfo.stars} 
-⏣FORKS: ${repoInfo.forks} 
-⏣RELEASE: ${releaseDate}
-⏣Repo: ${data.html_url}
+🍴FORKS: ${repoInfo.forks} 
+📅RELEASE: ${releaseDate}
+🗒️Repo: ${data.html_url}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 👨‍💻 *OWNER:* *BELTAH*
 __________________________________
