@@ -50,7 +50,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   
     try {
       if (!arg || arg.length === 0) {
-        return repondre(`Please enter the necessary information to generate the image.`);
+        return repondre(`𝚃𝙴𝚂𝚃𝙸𝙽𝙶 𝙱𝙴𝙻𝚃𝙰𝙷'𝚂 𝙱𝙾𝚃 𝚂𝙿𝙴𝙴𝙳 𝚄𝚄𝙷!type ping 2.`);
       }
   
       // Regrouper les arguments en une seule chaîne séparée par "-"
