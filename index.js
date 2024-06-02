@@ -663,21 +663,20 @@ zk.ev.on('group-participants.update', async (group) => {
     try {
         ppgroup = await zk.profilePictureUrl(group.id, 'image');
     } catch {
-        ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg';
+        ppgroup = '';
     }
 
     try {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `────────────────⏣`;
+            let msg = `────────────────⏣`\n;
             let membres = group.participants;
             for (let membre of membres) {
-                msg += `║HELLO @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n`;
+                msg += `║◇HELLO @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n\n`;
             }
 
-            msg += `║◇ READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED
-            ╰─────────────────⏣`;
+            msg += `║◇ READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED\n╰─────────────────⏣\n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 © 𝙱𝚎𝚕𝚝𝚊𝚑-𝚃𝚎𝚌𝚑-𝚃𝚎𝚊𝚖`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
@@ -855,8 +854,8 @@ zk.ev.on('group-participants.update', async (group) => {
 ╰───────────────⏣
 
 ╭──────────────⁠☉ 
-  ☉𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 𝚋𝚢 𝚝𝚢𝚙𝚒𝚗𝚐☉ 
-      [ ${prefixe} 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 ] 
+  ☉𝚜𝚞𝚙𝚙𝚘𝚛𝚝 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 𝚋𝚢 𝚝𝚢𝚙𝚒𝚗𝚐 
+           [ ${prefixe} 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 ] 
 
   ★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 © 𝙱𝚎𝚕𝚝𝚊𝚑-𝚃𝚎𝚌𝚑-𝚃𝚎𝚊𝚖
 ╰───────────────────⏣`;
