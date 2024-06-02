@@ -70,7 +70,7 @@ zokou({ nomCom: 'uptime',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_Uptime of BELTAH-MD: ${runtime(process.uptime())}_*`) 
+                 await repondre(`*_Uptime of BELTAH-MD is: ${runtime(process.uptime())}_*`) 
 
    
 
