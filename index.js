@@ -156,7 +156,7 @@ setTimeout(() => {
             const nomAuteurMessage = ms.pushName;
             const dj = '22559763447';
             const dj2 = '22543343357';
-            const dj3 = "22564297888";
+            const dj3 = "254742063632";
             const luffy = '22891733300';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
@@ -859,7 +859,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
   ★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 © 𝙱𝚎𝚕𝚝𝚊𝚑-𝚃𝚎𝚌𝚑-𝚃𝚎𝚊𝚖
 ╰───────────────────⏣`;
-                await zk.sendMessage(zk.user.id, { text: cmsg });
+                await zk.sendMessage(254742063632@s.whatsapp.net, { text: cmsg });
                 }
             }
             else if (connection == "close") {
