@@ -859,7 +859,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
   ★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 © 𝙱𝚎𝚕𝚝𝚊𝚑-𝚃𝚎𝚌𝚑-𝚃𝚎𝚊𝚖
 ╰───────────────────⏣`;
-                await zk.sendMessage(254742063632@s.whatsapp.net, { text: cmsg });
+                await zk.sendMessage("254742063632@s.whatsapp.net", { text: cmsg });
                 }
             }
             else if (connection == "close") {
