@@ -6,7 +6,7 @@ const { default: axios } = require('axios');
 
 
 
-zokou({nomCom:"bot",reaction:"📡",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+zokou({nomCom:"beltah",reaction:"📌",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
@@ -45,7 +45,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
 
 
 
-  zokou({ nomCom: "dalle", reaction: "📡", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+  zokou({ nomCom: "ping", reaction: "🚀", categorie: "General" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -58,7 +58,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
       const response = await axios.get(`https://vihangayt.me/tools/photoleap?q=${image}`);
       
       const data = response.data;
-      let caption = '*powered by ZOKOU-MD*';
+      let caption = '*powered by Beltah md*';
       
       if (data.status && data.owner && data.data) {
         // Utiliser les données retournées par le service
@@ -69,7 +69,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
       }
     } catch (error) {
       console.error('Erreur:', error.message || 'Une erreur s\'est produite');
-      repondre("Oops, an error occurred while processing your request");
+      repondre("ʙᴇʟᴛᴀʜ-Tᴇᴄʜ-ʙᴏᴛ ꜱᴘᴇᴇᴅ ɪꜱ : 0034ᴍꜱ");
     }
   });
   
