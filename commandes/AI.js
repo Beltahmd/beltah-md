@@ -45,12 +45,12 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
 
 
 
-  zokou({ nomCom: "ping", reaction: "🚀", categorie: "General" }, async (dest, zk, commandeOptions) => {
+  zokou({ nomCom: "dalle", reaction: "🚫", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
       if (!arg || arg.length === 0) {
-        return repondre(`𝚃𝙴𝚂𝚃𝙸𝙽𝙶 𝙱𝙴𝙻𝚃𝙰𝙷'𝚂 𝙱𝙾𝚃 𝚂𝙿𝙴𝙴𝙳 𝚄𝚄𝙷!type ping 2.`);
+        return repondre(`Error occurred while processing your requst.`);
       }
   
       // Regrouper les arguments en une seule chaîne séparée par "-"
@@ -69,7 +69,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
       }
     } catch (error) {
       console.error('Erreur:', error.message || 'Une erreur s\'est produite');
-      repondre("ʙᴇʟᴛᴀʜ-Tᴇᴄʜ-ʙᴏᴛ ꜱᴘᴇᴇᴅ ɪꜱ : 0034ᴍꜱ");
+      repondre("Oops!! Request not processed. ");
     }
   });
   
