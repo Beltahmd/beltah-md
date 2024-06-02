@@ -5,7 +5,7 @@ zokou({ nomCom: "repo", reaction: "", nomFichier: __filename }, async (dest, zk,
 
 
 const githubRepo = 'https://api.github.com/repos/Beltahmd/beltah-md';
-const img = 'https://telegra.ph/file/6fcaf547aebbf7d08d8d1.jpg';
+const img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
 
 
     const response = await fetch(githubRepo); 
@@ -28,13 +28,13 @@ Fork and give a star to our Respiratory.
 
 
 ✨STARS: ${repoInfo.stars} 
-⏣FORKS:* ${repoInfo.forks} 
+⏣FORKS: ${repoInfo.forks} 
 ⏣RELEASE: ${releaseDate}
 ⏣Repo: ${data.html_url}
 🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
 👨‍💻 *OWNER:* *BELTAH*
 __________________________________
-            *Made With* 🤍`;
+      Made on Earth by Beltah tech`;
 
 
 await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
