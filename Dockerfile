@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Beltahmd/beltah-md /root/Beltahmd
-WORKDIR /root/Beltahmd/
+RUN git clone https://github.com/Beltahmd/beltah-md /root/beltahmd
+WORKDIR /root/beltahmd/
 
 
 COPY package.json .
@@ -21,4 +21,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["node", "index.js"]
+CMD ["node", "beltah.js"]
