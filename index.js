@@ -677,8 +677,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 msg += `║HELLO @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n`;
             }
 
-            msg += `║
-◇ READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED\n╰─────────────────⏣;
+            msg += `║◇ READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED\n╰─────────────────⏣`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
