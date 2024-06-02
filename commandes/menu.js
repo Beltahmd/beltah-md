@@ -32,23 +32,23 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧${s.BOT}✧────◆
-│   *Préfix* : ${s.PREFIXE}
-│   *Owner* : ${s.OWNER_NAME}
-│   *Mode* : ${mode}
-│   *Commands* : ${cm.length}
-│   *Date* : ${date}
-│   *Hour* : ${temps}
-│   *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│   *Plateforme* : ${os.platform()}
-│   *Développer* : Djalega++ 
-│  & M๏𝓷keℽ D Lบffy
-╰─────✧WA-BOT✧─────◆ \n\n`;
+╭────✧ʙᴇʟᴛᴀʜ-ᴛᴇᴄʜ-ʙᴏᴛ✧────◆
+│⏣│ *Préfix* : ${s.PREFIXE}
+│⏣│ *User* :  ${nomAuteurMessage}
+│⏣│ *Owner* : ${s.OWNER_NAME}
+│⏣│ *Mode* : ${mode}
+│⏣│ *Commands* : ${cm.length}
+│⏣│ *Date* : ${date}
+│⏣│ *Ram* : *127/364GB*
+│⏣│ *Time* : ${temps}
+│⏣│ *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│⏣│ *Platform* : ${os.platform()}
+│⏣│ *Developer* : Beltah Tech 
+╰─────✧ʙᴇʟᴛᴀʜ-ᴛᴇᴄʜ-ᴛᴇᴀᴍ✧─────◆ \n\n`;
     
 let menuMsg = `
-👋 Hello ${nomAuteurMessage} 👋
 
-*List of commands :*
+*BELTAH MD COMMANDS:*
 ◇                             ◇
 `;
 
@@ -56,7 +56,7 @@ let menuMsg = `
         menuMsg += `╭────❏ ${cat} ❏`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-│ ${cmd}`;
+│⏣│ ${cmd}`;
         }
         menuMsg += `
 ╰═════════════⊷ \n`
@@ -64,19 +64,18 @@ let menuMsg = `
 
     menuMsg += `
 ◇            ◇
-*»»————— ★ —————««*
-"To use a command, insert ${prefixe} followed by the command_name."
- 
-    Powered by Zokou-MD
-                                                
-*»»————— ★ —————««*
+*»»————————— ★ ——————————««*
+"|⏣BELTAH-MD CREATED BY BELTAH TECH TEAM"
+|⏣THANK YOU FOR CHOOSING _*BELTAH-MD*_
+|⏣𝑭𝑰𝑳𝑬 𝑮𝑬𝑵𝑬𝑹𝑨𝑻𝑬𝑫 𝑩𝒀 𝑩𝑬𝑳𝑻𝑨𝑯 𝑻𝑬𝑪𝑯 𝑻𝑬𝑨𝑴                                             
+*»»—————————— ★ ——————————««*
 `;
 
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -86,7 +85,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Zokou-MD*, développé par Djalega++" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
