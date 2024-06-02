@@ -804,28 +804,28 @@ zk.ev.on('group-participants.update', async (group) => {
         zk.ev.on("connection.update", async (con) => {
             const { lastDisconnect, connection } = con;
             if (connection === "connecting") {
-                console.log("ℹ️ Connecting to your account...");
+                console.log("ℹ️ Beltah is connecting...");
             }
             else if (connection === 'open') {
-                console.log("✅ connected successfully to your WhatsApp! ☺️");
+                console.log("✅ Beltah Connected to WhatsApp! ☺️");
                 console.log("--");
                 await (0, baileys_1.delay)(200);
                 console.log("------");
                 await (0, baileys_1.delay)(300);
                 console.log("------------------/-----");
-                console.log("le bot est en ligne 🕸\n\n");
+                console.log("Beltah Md is Online 🕸\n\n");
                 //chargement des commandes 
-                console.log("chargement des commandes ...\n");
-                fs.readdirSync(__dirname + "/commandes").forEach((fichier) => {
+                console.log("Loading Beltah Commands ...\n");
+                fs.readdirSync(__dirname + "/beltah").forEach((fichier) => {
                     if (path.extname(fichier).toLowerCase() == (".js")) {
                         try {
-                            require(__dirname + "/commandes/" + fichier);
-                            console.log(fichier + " installed successfully✔️");
+                            require(__dirname + "/beltah/" + fichier);
+                            console.log(fichier + " Installed Successfully✔️");
                         }
                         catch (e) {
-                            console.log(`${fichier} n'a pas pu être chargé pour les raisons suivantes : ${e}`);
-                        } /* require(__dirname + "/commandes/" + fichier);
-                         console.log(fichier + " installé ✔️")*/
+                            console.log(`${fichier} could not be installed due to : ${e}`);
+                        } /* require(__dirname + "/beltah/" + fichier);
+                         console.log(fichier + " Installed ✔️")*/
                         (0, baileys_1.delay)(300);
                     }
                 });
@@ -840,24 +840,24 @@ zk.ev.on('group-participants.update', async (group) => {
                 else {
                     md = "undefined";
                 }
-                console.log("chargement des commandes terminé ✅");
+                console.log("Commands Installation Completed ✅");
 
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `  ☉ Beltah-md has connected... ☉
+                let cmsg = `  ☉ 𝗕𝗘𝗟𝗧𝗔𝗛-𝗠𝗗 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 ☉
 ╭──────────────⁠☉
-  ❒⁠⁠⁠⁠𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑
-  ❒⁠⁠⁠⁠𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${prefixe} ]  
-  ❒⁠⁠⁠⁠𝙼𝚘𝚍𝚎 : ${md}
-  ❒⁠⁠⁠⁠𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜 : ${evt.cm.length}︎
+  ❒⁠⁠⁠⁠𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑
+  ❒⁠⁠⁠⁠𝗣𝗿𝗲𝗳𝗶𝘅    : [ ${prefixe} ]  
+  ❒⁠⁠⁠⁠𝗠𝗼𝗱𝗲     : ${md}
+  ❒⁠⁠⁠⁠𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: ${evt.cm.length}︎
 ╰──────────────⏣
 
 ╭──────────────⁠☉ 
-  ☉support link 
+  ☉𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗟𝗶𝗻𝗸: 
  [ ${prefixe} 𝚜𝚞𝚙𝚙𝚘𝚛𝚝 ] 
 
-  ★𝙱𝚎𝚕𝚝𝚊𝚑-𝚃𝚎𝚌𝚑-𝚃𝚎𝚊𝚖
+  ★𝗕𝗲𝗹𝘁𝗮𝗵-𝗧𝗲𝗰𝗵-𝗧𝗲𝗮𝗺
 ╰──────────────⏣`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
