@@ -853,7 +853,7 @@ ${metadata.desc}`;
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `Beltah-md has connected...
+                let cmsg = `  ☉ Beltah-md has connected... ☉
 ╭──────────────⁠☉
   ❒⁠⁠⁠⁠𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑
   ❒⁠⁠⁠⁠𝙿𝚛𝚎𝚏𝚒𝚡 : [ ${prefixe}]  
