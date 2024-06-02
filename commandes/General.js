@@ -10,7 +10,7 @@ zokou({ nomCom: "mods", categorie: "General", reaction: "💞" }, async (dest, z
   if (thsudo) {
      let msg = `*My Super-User*\n
      *Owner Number\n* :
-- 🌟 @${conf.NUMERO_OWNER}
+- ✨ @${conf.NUMERO_OWNER}
 
 ------ *other sudos* -----\n`
      
@@ -55,14 +55,14 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Djalega++", numero: "22559763447" },
-      { nom: "᚛M๏𝓷keℽ D Lบffy᚜", numero: "22891733300" },
+      { nom: "BELTAH TECH", numero: "254114141192" },
+      { nom: "BELTAH KE", numero: "254737681758" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 welcome to Zokou ! here is the dev :\n\n";
+    let message = "👋 welcome to Beltah-md help center! Ask for help from the developers below:\n\n";
     for (const dev of devs) {
-      message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
+      message += `----------------\n⏣ ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
   var lien = mybotpic()
     if (lien.match(/\.(mp4|gif)$/i)) {
