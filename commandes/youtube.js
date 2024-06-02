@@ -36,7 +36,7 @@ zokou({
 *Url :* _${videos[0].url}_
 
 
-_*on downloading...*_\n\n`
+_*BELTAH-MD IS DOWNLOADING YOUR FILE*_\n\n`
        }
 
       
