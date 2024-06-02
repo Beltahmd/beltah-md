@@ -2,13 +2,13 @@
 
 
 
-Beltah is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management, Beltah is here to assist you.
+Beltah is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management, Beltah-md is here to assist you.
 
 ## Key Features
 
 - **File Download:** Beltah can download audio and video files from links you send, making it easy to share them with your contacts.
 
-- **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to Zokou.
+- **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to Beltah.
 
 - **Group Management:** Zokou offers group management features, such as adding or removing members, configuring rules, and other settings.
 
