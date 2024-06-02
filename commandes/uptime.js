@@ -1,6 +1,6 @@
 const { zokou } = require("../framework/zokou");
 const moment = require("moment-timezone");
-const { getBuffer } = require("../france/dl/Function");
+const { getBuffer } = require("../framework/dl/Function");
 const { default: axios } = require('axios');
 const speed = require("performance-now");
 
