@@ -47,7 +47,7 @@ const sleep =  (ms) =>{
         type = 'not animated sticker'
       }
   
-      let msg = `   Zk-stickers-dl
+      let msg = `   Beltah-md-stickers-dl
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
@@ -539,7 +539,7 @@ zokou({
 
   if (alldata.length === 0 ) { repondre(`To activate or modify the mention; follow this syntax: mention link type message
   The different types are audio, video, image, and sticker.
-  Example: mention https://static.animecorner.me/2023/08/op2.jpg image Hi, my name is Luffy`) ; return}
+  Example: mention https://static.animecorner.me/2023/08/op2.jpg image Hi, my name is Beltah`) ; return}
 
       if(data.status == 'non') {
           etat = 'Desactived'
@@ -560,7 +560,7 @@ Link: ${url}
 
 To activate or modify the mention, follow this syntax: mention link type message
 The different types are audio, video, image, and sticker.
-Example: mention https://static.animecorner.me/2023/08/op2.jpg image Hi, my name is Luffy
+Example: mention https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg image Hi, my name is Beltah
 
 To stop the mention, use mention stop`;
 
