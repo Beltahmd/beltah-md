@@ -22,7 +22,7 @@ let flashspeed = (speed() - timestamp).toFixed(4)
 zokou({ nomCom: 'ping',
     desc: 'To check ping',
     Categorie: 'General',
-    reaction: '⚙️', 
+    reaction: '🚀', 
     fromMe: 'true', 
 
 
@@ -33,7 +33,7 @@ async (dest, zk, commandeOptions) => {
 
 
 
-await repondre(`*PONG*\n*_${flashspeed} ms_* `);
+await repondre(`*BELTAH-MD SPEED IS :*_${flashspeed} MS_* `);
 
 }
 );
@@ -42,7 +42,7 @@ await repondre(`*PONG*\n*_${flashspeed} ms_* `);
 /*king({ nomCom: 'active',
     desc: 'To check ping',
     Categorie: 'General',
-    reaction: '⚙️', 
+    reaction: '⏲️', 
     fromMe: 'true', 
 
 
@@ -62,7 +62,7 @@ await zk.sendMessage(dest, { video: { url: 'https://telegra.ph/file/4bbcfdf0a62d
 zokou({ nomCom: 'uptime',
     desc: 'To check runtime',    
     Categorie: 'General',
-    reaction: '⚙️', 
+    reaction: '⏲️', 
     fromMe: 'true', 
 
 
@@ -70,7 +70,7 @@ zokou({ nomCom: 'uptime',
   async (dest, zk, commandeOptions) => {
     const { ms, arg, repondre } = commandeOptions;
 
-                 await repondre(`*_Uptime of FLASH-MD: ${runtime(process.uptime())}_*`) 
+                 await repondre(`*_Uptime of BELTAH-MD: ${runtime(process.uptime())}_*`) 
 
    
 
