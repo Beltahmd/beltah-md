@@ -670,21 +670,15 @@ zk.ev.on('group-participants.update', async (group) => {
         const metadata = await zk.groupMetadata(group.id);
 
         if (group.action == 'add' && (await recupevents(group.id, "welcome") == 'on')) {
-            let msg = `╔════◇◇◇═════╗
-║ welcome to new(s) member(s)
-║ *New(s) Member(s) :*
-`;
+            let msg = `────────────────⏣
 
-            let membres = group.participants;
+`;       let membres = group.participants;
             for (let membre of membres) {
-                msg += `║ @${membre.split("@")[0]}\n`;
+                msg += `║HELLO @${membre.split("@")[0]} WELCOME TO OUR GROUP. \n`;
             }
 
             msg += `║
-╚════◇◇◇═════╝
-◇ *Descriptioon*   ◇
-
-${metadata.desc}`;
+◇ READ THE GROUP DESCRIPTION TO AVOID GETTING REMOVED\n╰─────────────────⏣;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
