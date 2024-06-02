@@ -24,15 +24,15 @@ const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
 
 const gitdata = `👋Hello, This is Beltah-Md. \nA Multidevice Whatsapp User Bot.
 
-Fork and give a star to our Respiratory. 
+Fork and give a star🌟 to our Respiratory. 
 
 
 ✨STARS: ${repoInfo.stars} 
 🍴FORKS: ${repoInfo.forks} 
 📅RELEASE: ${releaseDate}
 🗒️Repo: ${data.html_url}
-🕐 *UPDATE ON:* ${repoInfo.lastUpdate}
-👨‍💻 *OWNER:* *BELTAH*
+🕐UPDATE ON: ${repoInfo.lastUpdate}
+👨‍💻OWNER: *BELTAH*
 __________________________________
       Made on Earth by Beltah tech`;
 
