@@ -33,17 +33,18 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 ╭────✧ʙᴇʟᴛᴀʜ-ᴛᴇᴄʜ-ʙᴏᴛ✧────◆
-│⏣│ *Préfix* : ${s.PREFIXE}
-│⏣│ *User* :  ${nomAuteurMessage}
-│⏣│ *Owner* : ${s.OWNER_NAME}
-│⏣│ *Mode* : ${mode}
-│⏣│ *Commands* : ${cm.length}
-│⏣│ *Date* : ${date}
-│⏣│ *Ram* : *127/364GB*
-│⏣│ *Time* : ${temps}
-│⏣│ *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│⏣│ *Platform* : ${os.platform()}
-│⏣│ *Developer* : Beltah Tech 
+│⏣╭─────────────⏣
+│⏣│ *PREFIX* : ${s.PREFIXE}
+│⏣│ *USER* :  ${nomAuteurMessage}
+│⏣│ *OWNER* : ${s.OWNER_NAME}
+│⏣│ *MODE* : ${mode}
+│⏣│ *COMMANDS* : ${cm.length}
+│⏣│ *DATE* : ${date}
+│⏣│ *TIME* : ${temps}
+│⏣│ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│⏣│ *PLATFORM* : ${os.platform()}
+│⏣│ *DEVELOPER* : Beltah Tech 
+│⏣╰──────────────⏣
 ╰─────✧ʙᴇʟᴛᴀʜ-ᴛᴇᴄʜ-ᴛᴇᴀᴍ✧─────◆ \n\n`;
     
 let menuMsg = `
@@ -53,7 +54,7 @@ let menuMsg = `
 `;
 
     for (const cat in coms) {
-        menuMsg += `╭────❏ ${cat} ❏`;
+        menuMsg += `╭──────⏣ ${cat} ⏣`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 │⏣│ ${cmd}`;
@@ -66,7 +67,9 @@ let menuMsg = `
 ◇            ◇
 *»»————————— ★ ——————————««*
 "|⏣BELTAH-MD CREATED BY BELTAH TECH TEAM"
+
 |⏣THANK YOU FOR CHOOSING _*BELTAH-MD*_
+
 |⏣𝑭𝑰𝑳𝑬 𝑮𝑬𝑵𝑬𝑹𝑨𝑻𝑬𝑫 𝑩𝒀 𝑩𝑬𝑳𝑻𝑨𝑯 𝑻𝑬𝑪𝑯 𝑻𝑬𝑨𝑴                                             
 *»»—————————— ★ ——————————««*
 `;
