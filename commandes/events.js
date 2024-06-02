@@ -21,7 +21,7 @@ async function events(nomCom) {
                 }
             }
         } else {
-            repondre('You can\'t use this commands ');
+            repondre('You can\'t use this command lol ');
         }
     });
 }
