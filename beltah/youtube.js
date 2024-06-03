@@ -8,7 +8,7 @@ const yts1 = require("youtube-yts");
 //var fs =require("fs-extra")
 
 zokou({
-  nomCom: "song",
+  nomCom: "play",
   categorie: "Search",
   reaction: "💿"
 }, async (origineMessage, zk, commandeOptions) => {
@@ -36,7 +36,7 @@ zokou({
 *Url :* _${videos[0].url}_
 
 
-_*BELTAH-MD IS DOWNLOADING YOUR FILE*_\n\n`
+_*BELTAH-MD IS DOWNLOADING YOUR FILE📂 *_\n\n`
        }
 
       
@@ -106,7 +106,7 @@ zokou({
         caption: `*Video name :* _${Element.title}_
 *Time :* _${Element.timestamp}_
 *Url :* _${Element.url}_
-_*On downloading...*_\n\n`
+_*BELTAH MD IS DOWNLOADING YOUR FILE📂 *_\n\n`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
