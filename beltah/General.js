@@ -51,16 +51,18 @@ zokou({ nomCom: "mods", categorie: "General", reaction: "💞" }, async (dest, z
   }
 });
 
-zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "dev", categorie: "General", reaction: "⛑️" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
       { nom: "BELTAH TECH", numero: "254114141192" },
       { nom: "BELTAH KE", numero: "254737681758" },
+      { nom: "GIFTED TECH", numero: "254762016957" }, 
+      { nom: "FRANCE KING", numero: "254742063632" }, 
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋 welcome to Beltah-md help center! Ask for help from the developers below:\n\n";
+    let message = "👋WELCOME TO BELTAH-MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n⏣ ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
