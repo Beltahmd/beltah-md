@@ -4,51 +4,41 @@
 
 Beltah is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management, Beltah-md is here to assist you.
 
-## Key Features
+## Get 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗
 
-- **File Download:** Beltah can download audio and video files from links you send, making it easy to share them with your contacts.
-
-- **Sticker Export:** You can export stickers from Telegram and use them in your WhatsApp conversations by simply sending them to Beltah.
-
-- **Group Management:** Zokou offers group management features, such as adding or removing members, configuring rules, and other settings.
-
-- **Text to Img:** The best logos have been selected for your convenience.
-
-## Fun Features
-
-- **Jokes and Riddles:** Beltah comes with a collection of jokes and riddles to liven up your conversations.
-
-- **Inspiring Quotes:** Receive inspiring quotes to motivate you daily.
-
-## Get Zokou
-
-1. Click on **[Fork](https://github.com/Beltahmd/beltah-md/fork)** to copy the repo to your GitHub account. Make sure to add a star 🌟 to encourage the developers.
-
-2. Obtain a bot session: 
-
-   [Session-1](https://zokouscan-vee8.onrender.com) ; <br>
+1. Click on **[FORK](https://github.com/Beltahmd/beltah-md/fork)** THEN STAR THE REPO FIRST BEFORE DEPLOYING THE BOT.
 
 
-3. Deploy
-   - **Heroku Deployment:**
-     1. If you don't have a **Heroku** account, click [**here**](https://id.heroku.com/login) to create one.
+3. GET YOUR SESSION ID: 
+
+   [PAIR CODE](https://zokouscan-vee8.onrender.com) ; <br>
+
+
+4. DEPLOY 
+   - **HEROKU DEPLOYMENT :** -
     
-     
-     2. Click [**HERE**](https://dashboard.heroku.com/new?template=https://github.com/Beltahmd/beltah-md) to deploy the bot on **Heroku**.
+     1. DEPLOY ON HEROKU BY CLICKING [**HERE**](https://dashboard.heroku.com/new?template=https://github.com/Beltahmd/beltah-md) 
 
 ## Contributions
 
 Contributions to BELTAH-MD are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request. <br>
 
-   thanks to these persons ;
+  ## THANKS TO MY FELLOW DEV FOR;
 
-   **FRANCE KING** who added commands (uptime, ping, vv, ss, repo); <br>
+    [FRANCE KING] 
+    (https://github.com/franceking1).
+    
+   who added commands (uptime, ping, vv, ss, repo); <br>
 
-   **GIFTED TECH** who hosted a website for the session_id;
+    [GIFTED TECH] 
+    (https://github.com/mouricedevs).
+    
+   who helped in commands addition 
+   (ai, dalle, gpt4, gpt, starting up message for bot, updated index. Js) ;
 
 ## License
 
-The WhatsApp Bot Zokou is released under the [MIT License](https://opensource.org/licenses/MIT).
+The WhatsApp Bot 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 is released under the [MIT License](https://opensource.org/licenses/MIT).
 
 Enjoy the diverse features of the WhatsApp Bot Zokou to enhance your conversations and make your WhatsApp experience more interesting!
 
