@@ -9,7 +9,9 @@ Beltah is a multi-device bot designed to enhance your WhatsApp conversations wit
 
 3. GET YOUR SESSION ID: 
 
-⏣LINK YOUR WHATSAPP BY CLICKING [HERE](https://zokouscan-vee8.onrender.com) ; <br>
+⏣PAIR YOUR WHATSAPP BY CLICKING [**HERE**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/pair) 
+
+⏣CLICK [**HERE**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/) TO VISIT MY SITES; <br>
 
 
 4. DEPLOY 
