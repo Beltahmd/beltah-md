@@ -4,7 +4,7 @@ Beltah is a multi-device bot designed to enhance your WhatsApp conversations wit
 
 ## GET 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗
 
-1. Click on **[FORK](https://github.com/Beltahmd/beltah-md/fork)** THEN STAR THE REPO FIRST BEFORE DEPLOYING THE BOT.
+1. STAR 🌟 THE REPO FIRST THEN CLICK ON **[FORK](https://github.com/Beltahmd/beltah-md/fork)** BEFORE DEPLOYING YOUR BOT.
 
 
 3. GET YOUR SESSION ID: 
@@ -17,19 +17,19 @@ Beltah is a multi-device bot designed to enhance your WhatsApp conversations wit
     
 ⏣DEPLOY ON HEROKU BY CLICKING [**HERE**](https://dashboard.heroku.com/new?template=https://github.com/Beltahmd/beltah-md) 
 
-5. ## WATCH TUTORIAL AND SUBSCRIBE
+ ## WATCH TUTORIAL AND SUBSCRIBE
 
 ⏣WATCH FULL VIDEO ON HOW TO DEPLOY BELTAH-MD BY CLICKING  [**HERE**](https://www.youtube.com/@Beltahtech2024) 
 
-6. ## WHATSAPP CHANNEL
+ ## WHATSAPP CHANNEL
 
 ⏣FOLLOW OUR SUPPORTIVE WHATSAPP CHANNEL BY CLICKING  [**HERE**](https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F) 
 
-7. ## WHATSAPP GROUP
+ ## WHATSAPP GROUP
 
 ⏣JOIN OUR PUBLIC WHATSAPP GROUP BY CLICKING  [**HERE**](https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI) 
 
-8. ## CONTACT DEVELOPER
+ ## CONTACT DEVELOPER
 
 ⏣REACH BELTAH-MD DEVELOPER ON WHATSAPP BY CLICKING  [**HERE**](https://wa.me/254114141192)  AND ON TELEGRAM BY CLICKING  [**HERE**](https://t.me/beltah254) 
 
