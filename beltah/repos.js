@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "repo", reaction: "🌟", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "repo", reaction: "📔", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
 
 
 const githubRepo = 'https://api.github.com/repos/Beltahmd/beltah-md';
@@ -22,20 +22,21 @@ const img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
 const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
             const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-const gitdata = `👋Hello, This is Beltah-Md. \nA Multidevice Whatsapp User Bot.
+const gitdata = `👋Hello, This is Beltah-Md.A Multidevice Whatsapp User Bot with amazing features.
 
 Fork and give a star🌟 to our Respiratory. 
 
 
-✨STARS: ${repoInfo.stars} 
-🍴FORKS: ${repoInfo.forks} 
-📅RELEASE: ${releaseDate}
-🗒️Repo: ${data.html_url}
-🕐UPDATE ON: ${repoInfo.lastUpdate}
-📲YouTube : _https://www.youtube.com/@Beltahtech2024_
-👨‍💻OWNER: *BELTAH*
+❒⁠⁠⁠⁠ *STARS*: ${repoInfo.stars} 
+❒⁠⁠⁠⁠ *FORKS*: ${repoInfo.forks} 
+❒⁠⁠⁠⁠ *RELEASE*: ${releaseDate}
+❒⁠⁠⁠⁠ *Repo*: ${data.html_url}
+❒⁠⁠⁠⁠ *UPDATE ON*: ${repoInfo.lastUpdate}
+❒⁠⁠⁠⁠ *Visit for Tutorial👇* : 
+❒⁠⁠⁠⁠_https://www.youtube.com/@Beltahtech2024_
+❒⁠⁠⁠⁠ *OWNER*: *BELTAH TECH*
 __________________________________
-      Made on Earth by Beltah tech`;
+  ◆Made on Earth by Beltah tech◆`;
 
 
 await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
