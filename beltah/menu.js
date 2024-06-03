@@ -44,13 +44,12 @@ const date = moment().format('DD/MM/YYYY');
 │⏣│*RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │⏣│*PLATFORM* : ${os.platform()}
 │⏣╰──────────────⏣
-╰───✧💰LIKE A BOSS💰✧────◆ \n\n`;
+╰───✧💰LIKE A BOSS💰✧────◆ \n\n╭─────────────⏣\n  *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V1.0.0*\n╰──────────────⏣\n\n`;
     
-let menuMsg = `╭─────────────⏣\n
-   *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V 0.0.1*\n
- ╰──────────────⏣\n
+let menuMsg = `
 
-◇ *LIST OF COMMANDS* ◇`;
+ ◇ *LIST OF COMMANDS* ◇
+`;
 
     for (const cat in coms) {
         menuMsg += `╭──────⏣ ${cat} ⏣`;
