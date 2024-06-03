@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
-zokou({ nomCom: "repo", reaction: "", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "repo", reaction: "🌟", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
 
 
 const githubRepo = 'https://api.github.com/repos/Beltahmd/beltah-md';
@@ -32,6 +32,7 @@ Fork and give a star🌟 to our Respiratory.
 📅RELEASE: ${releaseDate}
 🗒️Repo: ${data.html_url}
 🕐UPDATE ON: ${repoInfo.lastUpdate}
+📲YouTube : _https://www.youtube.com/@Beltahtech2024_
 👨‍💻OWNER: *BELTAH*
 __________________________________
       Made on Earth by Beltah tech`;
