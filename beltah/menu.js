@@ -38,7 +38,6 @@ const date = moment().format('DD/MM/YYYY');
 │⏣│ *Prefix* : ${s.PREFIXE}
 │⏣│ *Mode* : ${mode}
 │⏣│ *Commands* : ${cm.length}
-│⏣│ *Uptime* : ${runtime(process.uptime())}
 │⏣│ *Date* : ${date}
 │⏣│ *Time* : ${temps}
 │⏣│ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
