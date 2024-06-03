@@ -33,7 +33,7 @@ async (dest, zk, commandeOptions) => {
 
 
 
-await repondre(`*BELTAH-MD SPEED IS :*_${flashspeed} MS_* `);
+await repondre(`*_BELTAH-MD SPEED IS :_*_${flashspeed} MS_* `);
 
 }
 );
