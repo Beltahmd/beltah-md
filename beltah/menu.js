@@ -47,7 +47,9 @@ const date = moment().format('DD/MM/YYYY');
 ╰───✧💰LIKE A BOSS💰✧────◆\n\n`;
     
 let menuMsg = `
-
+╭─────────────⏣
+   *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V1.0.0*
+╰─────────────⏣
 
 ◇ *LIST OF COMMANDS* ◇
 `;
