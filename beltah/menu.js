@@ -44,12 +44,11 @@ const date = moment().format('DD/MM/YYYY');
 │⏣│ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │⏣│ *Platform* : ${os.platform()}
 │⏣╰──────────────⏣
-╰───✧💰LIKE A BOSS💰✧────◆
-╭─────────────⏣
-  *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V1.0.0*
-╰──────────────⏣\n\n`;
+╰───✧💰LIKE A BOSS💰✧────◆\n\n`;
     
 let menuMsg = `
+
+
 ◇ *LIST OF COMMANDS* ◇
 `;
 
