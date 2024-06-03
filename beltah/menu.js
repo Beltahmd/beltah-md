@@ -32,7 +32,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭───✧𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇 𝐁𝐎𝐓✧────◆
+╭─────✧𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗✧────────◆
 │⏣╭─────────────⏣
 │⏣│ *PREFIX* : ${s.PREFIXE}
 │⏣│ *USER* :  ${nomAuteurMessage}
@@ -49,7 +49,7 @@ const date = moment().format('DD/MM/YYYY');
     
 let menuMsg = `
 
-◇ *BELTAH MD COMMANDS:* ◇
+◇ *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 COMMANDS* ◇
 `;
 
     for (const cat in coms) {
@@ -65,9 +65,9 @@ let menuMsg = `
     menuMsg += `
 ◇            ◇
 *»»————————— ★ ——————————««*
-"|⏣BELTAH-MD CREATED BY BELTAH TECH TEAM"
+|⏣BELTAH-MD CREATED BY BELTAH TECH TEAM
 
-|⏣THANK YOU FOR CHOOSING _*BELTAH-MD*_
+|⏣THANK YOU FOR CHOOSING _*𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗*_
 
 |⏣𝑭𝑰𝑳𝑬 𝑮𝑬𝑵𝑬𝑹𝑨𝑻𝑬𝑫 𝑩𝒀 𝑩𝑬𝑳𝑻𝑨𝑯 𝑻𝑬𝑪𝑯 𝑻𝑬𝑨𝑴                                             
 *»»—————————— ★ ——————————««*
