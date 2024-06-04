@@ -33,7 +33,7 @@ const gitdata = ` 😊Hello,I AM Beltah-Md, A Multidevice Whatsapp User Bot with
 ❒⁠⁠⁠⁠ *Repo*: ${data.html_url}
 ❒⁠⁠⁠⁠ *UPDATE ON*: ${repoInfo.lastUpdate}
 ❒⁠⁠⁠⁠ *VISIT FOR TUTORIAL👇* : 
-❒⁠⁠⁠⁠ *_https://www.youtube.com/@Beltahtech2024_*
+❒⁠⁠⁠⁠ *_youtube.com/@Beltahtech2024_*
 ❒⁠⁠⁠⁠ *DEVELOPER*: *𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇*
 __________________________________
   ◆Made on Earth by Beltah tech◆`;
