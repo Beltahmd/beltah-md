@@ -16,8 +16,6 @@
 </p>
 <p align="center">
 
-  <a href="https://github.com/Beltahmd/beltah-md/network/members"><img title="Forks" src="https://img.shields.io/github/fork/Beltahmd/beltah-md?color=yellow&style=flat-square"></a>
-<a href="https://github.com/Beltahmd/beltahAI/network/members"><img title="Forks" src="https://img.shields.io/github/fork/Beltahmd/beltah-md?color=yellow&style=flat-square"></a>
 <a href="https://github.com/Beltahmd/beltah-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Beltahmd/beltah-md?label=Watchers&color=red&style=flat-square"></a>
 <a href="https://github.com/Beltahmd/beltah-md/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Beltahmd/beltah-md/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
