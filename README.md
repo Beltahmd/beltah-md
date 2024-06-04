@@ -1,5 +1,10 @@
 # BELTAH-MD V1.0.0
 
+<div align="center">
+
+| [![Beltah KE](https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg?lenght=50width=50)](https://github.com/Beltahmd)|
+|----|
+
 Beltah is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management, Beltah-md is here to assist you.
 
 ## GET 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗
