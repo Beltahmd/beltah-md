@@ -1,40 +1,51 @@
-# BELTAH-MD V1.0.0
+# BELTAH-MD V2.0.0
 
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=𝗕𝗘𝗟𝗧𝗔𝗛+𝗠𝗗;A+WHATSAPP+BOT;CREATED+BY+BELTAH+TECH" alt="Typing SVG" /></a>
+  </p>
 <div align="center">
 
 | [![Beltah KE](https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg?lenght=50width=50)](https://github.com/Beltahmd)|
 |----|
 
-Beltah is a multi-device bot designed to enhance your WhatsApp conversations with useful and fun features. Whether managing files, interacting with stickers, or facilitating group management, Beltah-md is here to assist you.
+<p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=BELTAH-MD+IS+A+SIMPLE+BOT" alt="">
+</p>
+<p align="center">
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-BELTAH TECH-red.svg?style=for-the-badge&logo=github"></a>
+</p>
+<p align="center">
+<a href="'https://wa.me/254114141192yoh+𝐁𝐞𝐥𝐭𝐚𝐡 𝐊𝐄⸼ +nishow+venye+nitadeploy+beltah-ai'"><img title="Whatsapp" src="'https://wa.me/254114141192yoh+𝐁𝐞𝐥𝐭𝐚𝐡 𝐊𝐄⸼ +nishow+venye+nitadeploy+beltah-ai'?color=green&style=flat-square"></a>
+  
+<a href="https://wa.me/254114141192yoh+𝐁𝐞𝐥𝐭𝐚𝐡 𝐊𝐄⸼"><img title="Twitter" src="https://x-audibeltah=09?color=black&style=flat-square"></a>
+<a href="https://github.com/Beltahmd/beltah-md/network/members"><img title="Forks" src="https://img.shields.io/github/fork/Beltahmd/beltah-md?color=yellow&style=flat-square"></a>
+<a href="https://github.com/Beltahmd/beltah-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Beltahmd/beltah-md?label=Watchers&color=red&style=flat-square"></a>
+<a href="https://github.com/Beltahmd/beltah-md/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Beltahmd/beltah-md/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/Beltahmd/beltah-md/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
+</p>
 
 ## GET 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗
 
 1. STAR 🌟 THE REPO FIRST THEN CLICK ON **[FORK](https://github.com/Beltahmd/beltah-md/fork)** BEFORE DEPLOYING YOUR BOT.
 
 
-3. GET YOUR SESSION ID: 
+## GET YOUR SESSION ID: 
 
 ⏣PAIR YOUR WHATSAPP BY CLICKING [**HERE**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/pair) 
 
-⏣CLICK [**HERE**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/) TO VISIT MY SITES; <br>
+⏣[**VISIT**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/) BELTAH TECH SITES; <br>
 
 
-4. DEPLOY 
-   - **HEROKU DEPLOYMENT :** -
+## 4. DEPLOY NOW ON HEROKU 
     
-⏣DEPLOY ON HEROKU BY CLICKING [**HERE**](https://dashboard.heroku.com/new?template=https://github.com/Beltahmd/beltah-md) 
+⏣ [**DEPLOY**](https://dashboard.heroku.com/new?template=https://github.com/Beltahmd/beltah-md) BELTAH-MD NOW. 
 
  ## WATCH TUTORIAL AND SUBSCRIBE
 
 ⏣WATCH FULL VIDEO ON HOW TO DEPLOY BELTAH-MD BY CLICKING  [**HERE**](https://www.youtube.com/@Beltahtech2024) 
 
- ## WHATSAPP CHANNEL
-
-⏣FOLLOW OUR SUPPORTIVE WHATSAPP CHANNEL BY CLICKING  [**HERE**](https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F) 
-
- ## WHATSAPP GROUP
-
-⏣JOIN OUR PUBLIC WHATSAPP GROUP BY CLICKING  [**HERE**](https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI) 
+ 
 
  ## CONTACT DEVELOPER
 
