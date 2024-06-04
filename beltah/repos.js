@@ -22,9 +22,9 @@ const img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
 const releaseDate = new Date(data.created_at).toLocaleDateString('en-GB');
             const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
-const gitdata = ` 😊Hello ${nomAuteurMessage} ,This is Beltah-Md.A Multidevice Whatsapp User Bot with amazing features.
+const gitdata = ` 😊Hello,I AM Beltah-Md, A Multidevice Whatsapp User Bot with amazing features.
 
-Fork and give a star🌟 to our Respiratory. 
+*FORK AND GIVE A STAR 🌟 TO OUR RESPIRATORY* 
 
 
 ❒⁠⁠⁠⁠ *STARS*: ${repoInfo.stars} 
