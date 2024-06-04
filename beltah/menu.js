@@ -33,8 +33,8 @@ const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
 ╭────✧〈 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 〉 ✧───◆
-│╭─────────────⏣
-┴│▸ *User* : ${s.OWNER_NAME}
+┴╭─────────────⏣
+⬡│▸ *User* : ${s.OWNER_NAME}
 ⬡│▸ *Prefix* : ${s.PREFIXE}
 ⬡│▸ *Mode* : ${mode}
 ⬡│▸ *Commands* : ${cm.length}
@@ -42,12 +42,12 @@ const date = moment().format('DD/MM/YYYY');
 ⬡│▸ *Time* : ${temps}
 ⬡│▸ *Ram* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ⬡│▸ *Platform* : ${os.platform()}
-⬡│▸╰──────────────⏣
- └───···▸💰LIKE A BOSS💰··──◆\n\n`;
+⬡╰──────────────⏣
+╰─── ···▸💰LIKE A BOSS💰··──◆\n\n`;
     
 let menuMsg = `
 ╭───────────⏣
-   *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V1.0.0*
+   *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V2.0.0*
 ╰───────────⏣
 
 ◇ *LIST OF COMMANDS* ◇
@@ -69,8 +69,6 @@ let menuMsg = `
 |⏣BELTAH-MD CREATED BY BELTAH TECH TEAM
 
 |⏣THANK YOU FOR CHOOSING _*𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗*_
-
-|⏣𝑭𝑰𝑳𝑬 𝑮𝑬𝑵𝑬𝑹𝑨𝑻𝑬𝑫 𝑩𝒀 𝑩𝑬𝑳𝑻𝑨𝑯 𝑻𝑬𝑪𝑯 𝑻𝑬𝑨𝑴                                             
 *»»—————————— ★ ——————————««*
 `;
 
