@@ -1,5 +1,6 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-## BELTAH-MD V2.0.0
+## ♡✇ BELTAH-MD V2.0.0 ✇♡
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=𝗕𝗘𝗟𝗧𝗔𝗛+𝗠𝗗;A+WHATSAPP+BOT;CREATED+BY+BELTAH+TECH" alt="Typing SVG" /></a>
@@ -25,8 +26,7 @@
 
 ## GET 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V2.0.0
 
-1. STAR 🌟 THE REPO FIRST THEN CLICK ON **[FORK](https://github.com/Beltahmd/beltah-md/fork)** BEFORE DEPLOYING YOUR BOT.
-
+<a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20My%20Repository-blue" alt="FORK BELTAH-MD REPO" width="300"></a>
 
 ## GET YOUR SESSION ID: 
 
@@ -38,8 +38,10 @@
 
 
 ## 4. DEPLOY NOW ON HEROKU 
-    
-⏣ [**DEPLOY**](https://dashboard.heroku.com/new?template=https://github.com/Beltahmd/beltah-md) BELTAH-MD NOW. 
+<h1 align="center">
+ 
+ ***[![DEPLOY NOW ON HEROKU](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Beltahmd/beltah-md&template=https://github.com/Beltahmd/beltah-md.git)***
+
 
  ## WATCH TUTORIAL AND SUBSCRIBE
 
