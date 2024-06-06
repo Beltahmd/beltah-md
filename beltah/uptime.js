@@ -67,7 +67,7 @@ function _0x4925() {
         '\x20:*_',
         '\x20d,\x20',
         's\x20website',
-        '\x20MS_\x20',
+        '\x20_*MS*\x20',
         'kWcxx',
         '\x20h,\x20',
         'IVnSf',
