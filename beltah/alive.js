@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla🥴, *BELTAH-MD BOT* is alive just like you gee; https://telegra.ph/file/81d4a442a1bd96339924e.mp4')
+repondre(' Holla🥴, *BELTAH-MD BOT* is alive just like you gee. ')
 
 }
     });
