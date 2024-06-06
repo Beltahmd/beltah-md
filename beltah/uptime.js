@@ -64,7 +64,7 @@ function _0x4925() {
         'QOqpp',
         'nnuiu',
         '537318wEhDrf',
-        '\x20:_',
+        '\x20:*_',
         '\x20d,\x20',
         's\x20website',
         '\x20MS_\x20',
