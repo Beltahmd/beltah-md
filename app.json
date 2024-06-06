@@ -1,16 +1,16 @@
 {
-  "name":"ʙᴇʟᴛᴀʜ-ᴛᴇᴄʜ-ʙᴏᴛ",
-  "description":"𝙷𝚎𝚕𝚕𝚘 👋, 𝙸 𝚊𝚖 𝚂𝚙𝚎𝚎𝚍𝚢 𝙱𝚘𝚝 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 𝚝𝚑𝚎 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑 𝚃𝚎𝚊𝚖.",
+  "name":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 @V2.0.0",
+  "description":"Deploy now your 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 bot, It only takes 7 mins to deploy, BELTAH-MD was developed by Beltah.",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-  "repository":"https://github.com/Beltahmd/Speedy-bot",
+  "repository":"https://github.com/Beltahmd/beltah-md",
   "succes_url":"/",
   "stack":"container",
   "env":{
     "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":"+",
+      "value":".",
       "required":true
     },
     "AUTO_READ_STATUS":
@@ -35,21 +35,21 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"ʙᴇʟᴛᴀʜ-ᴛᴇᴄʜ-ʙᴏᴛ",
+      "value":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+      "value":"https://telegra.ph/file/81d4a442a1bd96339924e.mp4,https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
       "required":false
        
      },
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
 	,
@@ -64,7 +64,7 @@
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
+      "description":"put your session ID , the code you receive after pairing code",   
       "value":"",
       "required":true
       
@@ -74,7 +74,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Beltah Tech"
+    "value": "Beltah KE"
   },
     "NUMERO_OWNER":
   {
@@ -87,7 +87,7 @@
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "3"
+    "value": "5"
   },
   "STARTING_BOT_MESSAGE":
   {
@@ -97,8 +97,8 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
     "required": false
+    "value":"2", 
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
