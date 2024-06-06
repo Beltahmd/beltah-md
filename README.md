@@ -1,4 +1,5 @@
-# BELTAH-MD V2.0.0
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+## BELTAH-MD V2.0.0
 
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=𝗕𝗘𝗟𝗧𝗔𝗛+𝗠𝗗;A+WHATSAPP+BOT;CREATED+BY+BELTAH+TECH" alt="Typing SVG" /></a>
@@ -29,7 +30,9 @@
 
 ## GET YOUR SESSION ID: 
 
-⏣PAIR YOUR WHATSAPP BY CLICKING [**HERE**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/pair) 
+<a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-white" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="300"></a>
+
+<a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/qr"><img src="https://img.shields.io/badge/qr%20session%20code-orange" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="300"></a>
 
 ⏣[**VISIT**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/) BELTAH TECH SITES; <br>
 
