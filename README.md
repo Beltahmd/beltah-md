@@ -17,11 +17,11 @@
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-BELTAH TECH-red.svg?style=for-the-badge&logo=github"></a>
 <p/>
 <p align="center">
-<a href="https://github.com/Beltahmd?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Beltahmd?label=Followers&style=social"></a>
-<a href="https://github.com/Beltahmd/beltah-md/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/beltah-md?&style=social"></a>
+<a href="https://github.com/beltah-md?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Beltahmd?label=Followers&style=social"></a>
+<a href="https://github.com/Beltahmd/beltah-md/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/Beltahmd/beltah-md?&style=social"></a>
 <a href="https://github.com/Beltahmd/beltah-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Beltahmd/beltah-md?style=social"></a>
 <a href="https://github.com/Beltahmd/beltah-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Beltahmd/beltah-md?label=Watching&style=social"></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+  
 ## GET 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V2.0.0
 
 <a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20Beltahmd%20Repo-blue" alt="FORK BELTAH-MD REPO" width="300"></a>
