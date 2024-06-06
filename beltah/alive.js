@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *Zokou_MD version 2.0*`
+ *BELTAH_MD version 2.0*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre('message alive refresh successfully')
+repondre(' Holla🥴, *BELTAH-MD BOT* is alive just like you gee; https://telegra.ph/file/81d4a442a1bd96339924e.mp4')
 
 }
     });
