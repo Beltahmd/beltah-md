@@ -15,15 +15,13 @@
 </p>
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-BELTAH TECH-red.svg?style=for-the-badge&logo=github"></a>
-</p>
+<p/>
 <p align="center">
-
-<a href="https://github.com/Beltahmd/beltah-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Beltahmd/beltah-md?label=Watchers&color=red&style=flat-square"></a>
-<a href="https://github.com/Beltahmd/beltah-md/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Beltahmd/beltah-md/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/Beltahmd/beltah-md/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
-</p>
-
+<a href="https://github.com/Beltahmd?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Beltahmd?label=Followers&style=social"></a>
+<a href="https://github.com/Beltahmd/beltah-md/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/beltah-md?&style=social"></a>
+<a href="https://github.com/Beltahmd/beltah-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Beltahmd/beltah-md?style=social"></a>
+<a href="https://github.com/Beltahmd/beltah-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Beltahmd/beltah-md?label=Watching&style=social"></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ## GET 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V2.0.0
 
 <a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20Beltahmd%20Repo-blue" alt="FORK BELTAH-MD REPO" width="300"></a>
