@@ -26,13 +26,13 @@
 
 ## GET 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V2.0.0
 
-<a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20My%20Repository-blue" alt="FORK BELTAH-MD REPO" width="300"></a>
+<a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20Beltahmd%20Repo-blue" alt="FORK BELTAH-MD REPO" width="300"></a>
 
 ## GET YOUR SESSION ID: 
 
-<a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-white" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="300"></a>
+<a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-green" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="300"></a>
 
-<a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/qr"><img src="https://img.shields.io/badge/qr%20session%20code-orange" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="300"></a>
+<a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/qr"><img src="https://img.shields.io/badge/QR%20session%20code-red" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="300"></a>
 
 ⏣[**VISIT**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/) BELTAH TECH SITES; <br>
 
