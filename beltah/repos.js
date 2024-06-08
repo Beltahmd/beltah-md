@@ -35,7 +35,7 @@ function _0x5403() {
         '𝐁𝐄𝐋𝐓𝐀𝐇\x20𝐓𝐄𝐂',
         'https://ap',
         'SIT\x20FOR\x20TU',
-        '\x20RESPIRATO',
+        '\x20REPOSITO',
         '\x20\x0a❒⁠⁠⁠⁠\x20*R',
         'r\x20Bot\x20with',
         'ELOPER*:\x20*',
@@ -122,7 +122,7 @@ function _0x5403() {
 const {zokou} = require(_0x1a9979(0x148) + _0x1a9979(0x15a));
 zokou({
     'nomCom': _0x1a9979(0x135),
-    'reaction': '📔',
+    'reaction': '📝',
     'nomFichier': __filename
 }, async (_0x969b1f, _0x2501c9, _0x849359) => {
     const _0x3cb298 = _0x1a9979, _0x2c7d0a = {
