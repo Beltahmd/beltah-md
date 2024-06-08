@@ -97,7 +97,7 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("THANK YOU FOR CHOOSING BELTAH-MD, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@Beltahtech2024] \n\n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 © 𝙱𝚎𝚕𝚝𝚊𝚑-𝚃𝚎𝚌𝚑-𝚃𝚎𝚊𝚖") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING BELTAH-MD, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@Beltahtech2024] \n\n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 © 𝙱𝚎𝚕𝚝𝚊𝚑-𝚃𝚎𝚌𝚑-𝚃𝚎𝚊𝚖`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING BELTAH-MD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
 
