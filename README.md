@@ -26,14 +26,17 @@
 ## SETUP FOR 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗
 
 **CLICK HERE 👇 TO FORK**
+
 <a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20Beltahmd%20Repo-blue" alt="FORK BELTAH-MD REPO" width="150"></a>
 
 ## GET YOUR SESSION ID: 
 
 **CLICK HERE 👇 TO PAIR**
+
 <a href="https://beltahmd-sessions-ce114587ed6a.herokuapp.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-green" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
 
 **CLICK HERE 👇 TO SCAN QR**
+
 <a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/qr"><img src="https://img.shields.io/badge/QR%20session%20code-red" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
 
 ⏣[**VISIT**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/) BELTAH TECH SITES; <br>
