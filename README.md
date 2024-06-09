@@ -23,7 +23,7 @@
 <a href="https://github.com/Beltahmd/beltah-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Beltahmd/beltah-md?style=social"></a>
 <a href="https://github.com/Beltahmd/beltah-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Beltahmd/beltah-md?label=Watching&style=social"></a>
   
-## SETUP FOR 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V2.0.0
+## SETUP FOR 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗
 
 **CLICK HERE 👇 TO FORK**
 <a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20Beltahmd%20Repo-blue" alt="FORK BELTAH-MD REPO" width="150"></a>
