@@ -1,6 +1,6 @@
 {
   "name":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗",
-  "description":"Deploy now your 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 bot, BELTAH-MD was developed by Beltah.",
+  "description":"Deploy now your 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 bot, BELTAH-MD was developed by Beltah.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
   "repository":"https://github.com/Beltahmd/beltah-md",
@@ -64,8 +64,8 @@
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after pairing code",   
-      "value":"",
+      "description":"put your session ID here after BELTAH-MD;;; , the code you receive after pairing code",   
+      "value":"BELTAH-MD;;;",
       "required":true
       
     },
