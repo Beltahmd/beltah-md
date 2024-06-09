@@ -1,5 +1,5 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-## BELTAH-MD V2.0.0 
+## BELTAH-MD V2.5.0 
    ***MADE WITH 💎***
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -12,7 +12,7 @@
 |----|
 
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=BELTAH-MD+V2.0.0+RESPONDS+FAST" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=BELTAH-MD+V2.5.0+RESPONDS+FAST" alt="">
 </p>
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-BELTAH TECH-red.svg?style=for-the-badge&logo=github"></a>
@@ -23,15 +23,18 @@
 <a href="https://github.com/Beltahmd/beltah-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Beltahmd/beltah-md?style=social"></a>
 <a href="https://github.com/Beltahmd/beltah-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Beltahmd/beltah-md?label=Watching&style=social"></a>
   
-## GET 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V2.0.0
+## SETUP FOR 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V2.0.0
 
-<a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20Beltahmd%20Repo-blue" alt="FORK BELTAH-MD REPO" width="200"></a>
+**PRESS HERE 👇 TO FORK**
+<a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20Beltahmd%20Repo-blue" alt="FORK BELTAH-MD REPO" width="150"></a>
 
 ## GET YOUR SESSION ID: 
 
-<a href="https://beltahmd-sessions-ce114587ed6a.herokuapp.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-green" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="200"></a>
+**PAIR YOUR DEVICE HERE 👇👇**
+<a href="https://beltahmd-sessions-ce114587ed6a.herokuapp.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-green" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
 
-<a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/qr"><img src="https://img.shields.io/badge/QR%20session%20code-red" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="200"></a>
+**SCAN QR CODE HERE 👇 👇**
+<a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/qr"><img src="https://img.shields.io/badge/QR%20session%20code-red" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
 
 ⏣[**VISIT**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/) BELTAH TECH SITES; <br>
 
