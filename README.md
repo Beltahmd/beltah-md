@@ -50,7 +50,7 @@
 
  ## WATCH TUTORIAL AND SUBSCRIBE
 
-⏣WATCH FULL VIDEO ON HOW TO DEPLOY BELTAH-MD BY CLICKING  [**HERE**](https://www.youtube.com/@Beltahtech2024) 
+**⏣WATCH FULL VIDEO ON HOW TO DEPLOY BELTAH-MD BY CLICKING  [**HERE**](https://www.youtube.com/@Beltahtech2024)**
 
  
 
