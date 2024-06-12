@@ -1,5 +1,5 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-## BELTAH-MD V2.5.0 
+## BELTAH-MD V3.0.0 
    ***MADE WITH 💎***
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
@@ -12,7 +12,7 @@
 |----|
 
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=✞BELTAH-MD+V2.5.0✞+RESPONDS+FAST" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=BELTAH-MD+V3.0.0+RESPONDS+FAST" alt="">
 </p>
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-BELTAH TECH-red.svg?style=for-the-badge&logo=github"></a>
@@ -33,26 +33,21 @@
 
 **CLICK HERE 👇 TO PAIR**
 
-<a href="https://beltahmd-sessions-ce114587ed6a.herokuapp.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-green" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
+<a href="https://beltah-session-d0e2ce19228b.herokuapp.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-green" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
 
 **CLICK HERE 👇 TO SCAN QR**
 
 <a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/qr"><img src="https://img.shields.io/badge/QR%20session%20code-red" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
 
-⏣[**VISIT**](https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/) BELTAH TECH SITES; <br>
+**CLICK HERE 👇 TO WATCH TUTORIAL***
+
+<a href="https://www.youtube.com/@Beltahtech2024"><img src="https://img.shields.io/badge/WATCH%20FULL%20TUTORIAL-red" alt="FULL TUTORIAL HERE" width="150"></a>
 
 
 ## 4. DEPLOY NOW ON HEROKU 
 <h1 align="center">
  
  ***[![DEPLOY NOW ON HEROKU](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Beltahmd/beltah-md&template=https://github.com/Beltahmd/beltah-md.git)***
-
-
- ## WATCH TUTORIAL AND SUBSCRIBE
-
-**⏣WATCH FULL VIDEO ON HOW TO DEPLOY BELTAH-MD BY CLICKING  [**HERE**](https://www.youtube.com/@Beltahtech2024)**
-
- 
 
  ## CONTACT DEVELOPER
 
