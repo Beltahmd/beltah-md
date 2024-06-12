@@ -39,7 +39,7 @@
 
 <a href="https://beltah-pairing-code-b11a94d6c0f0.herokuapp.com/qr"><img src="https://img.shields.io/badge/QR%20session%20code-red" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
 
-**CLICK HERE 👇 TO WATCH TUTORIAL***
+**CLICK HERE 👇 TO WATCH TUTORIAL**
 
 <a href="https://www.youtube.com/@Beltahtech2024"><img src="https://img.shields.io/badge/WATCH%20FULL%20TUTORIAL-red" alt="FULL TUTORIAL HERE" width="150"></a>
 
