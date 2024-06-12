@@ -64,8 +64,8 @@
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID here after BELTAH-MD;;; , the code you receive after pairing code",   
-      "value":"BELTAH-MD;;;",
+      "description":"put your session ID, the code you received after pairing code",   
+      "value":"",
       "required":true
       
     },
@@ -74,7 +74,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Beltah KE"
+    "value": "Beltahdev"
   },
     "NUMERO_OWNER":
   {
@@ -87,7 +87,7 @@
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "5"
+    "value": "3"
   },
   "STARTING_BOT_MESSAGE":
   {
