@@ -59,7 +59,7 @@
 	"required" :true
     },
   "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (this is optionnal)",
+    "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
      "value":"",
 	"required" :true
     }  
