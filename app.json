@@ -54,12 +54,14 @@
     }
 	,
     "HEROKU_APY_KEY": {
-    "description": "insert your heroku api-key (this is optionnal)",
-     "required" :false
+    "description": "insert your heroku api-key ",
+     "value":"",
+	"required" :true
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (this is optionnal)",
-     "required" :false
+     "value":"",
+	"required" :true
     }  
 	  ,
     "SESSION_ID":
