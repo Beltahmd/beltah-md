@@ -37,8 +37,19 @@ console.log("mon test");
 
 zokou({ nomCom: "test", reaction: "✅", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = ' *☹︎ BELTAH-MD BOT IS CURRENTLY ACTIVE ☹︎*\n\n';
-    let d = '♡♡ _MADE ON EARTH BY BELTAH TECH TEAM_ ♡♡';
+    let z = ' *☹︎ BELTAH-MD BOT IS CURRENTLY ACTIVE ☹︎*\n';
+    let d = ' ❄︎ *_MADE ON EARTH BY BELTAH TECH TEAM_* ❄︎';
+    let varmess = z + d;
+    var img = '';
+    await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
+    //console.log("montest")
+});
+console.log("mon test");
+
+zokou({ nomCom: "bot", reaction: "🤖", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+    console.log("Commande saisie !!!s");
+    let z = ' *BELTAH-MD MAIN FEATURES* \n\n 1.Auto view status✅\n 2 .Always online✅\n 3.A1 chat gpt enabled \n 4.Download songs/images✅\n 5.Open view once photos✅\n 6.Antidelete messages✅\n 7.Auto block contacts✅\n 8. Auto bluetick✅\n\n';
+    let d = ' *THANK YOU FOR LOVING BELTAH-MD*';
     let varmess = z + d;
     var img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
