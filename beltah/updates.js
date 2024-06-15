@@ -23,6 +23,17 @@ zokou({ nomCom: "channel", reaction: "😌", nomFichier: __filename }, async (de
     //console.log("montest")
 });
 console.log("mon test");
+
+zokou({ nomCom: "developer", reaction: "🌟", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+    console.log("Commande saisie !!!s");
+    let z = ' *HERE ARE MY OWNER INFO* \n\n✇ *NAME* : Brian Kanyiri Wainaina\n✇ *AGE* : 21 years\n✇ *SEX* : MALE\n✇ *RELIGION* :Christian\n✇ *TEAM* :Manchester United\n✇ *REAL LIFE* :I am a plumber, I never learned about coding,,✇ *CONTACT INFO* :👇 👇 \n';
+    let d = '𓄂 https://wa.me/254114141192\n\n *THANK YOU FOR LOVING BELTAH-MD*. ';
+    let varmess = z + d;
+    var img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
+    await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
+    //console.log("montest")
+});
+console.log("mon test");
 /*module.exports.commande = () => {
   var nomCom = ["test","t"]
   var reaction="☺️"
