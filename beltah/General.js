@@ -2,15 +2,15 @@ const { zokou } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "mods", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "owner", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
 
   if (thsudo) {
      let msg = `*My Super-User*\n
-     *Owner Number\n* :
-- ✨ @${conf.NUMERO_OWNER}
+     *Owner Number*\n :
+- 🌟 @${conf.NUMERO_OWNER}
 
 ------ *other sudos* -----\n`
      
@@ -51,21 +51,18 @@ zokou({ nomCom: "mods", categorie: "General", reaction: "💞" }, async (dest, z
   }
 });
 
-zokou({ nomCom: "dev", categorie: "General", reaction: "⛑️" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "BELTAH TECH", numero: "254114141192" },
-      { nom: "BELTAH KE", numero: "254737681758" },
-      { nom: "IBRAHIM ADAMS",numero: " 25471077266" },
-      { nom: "GIFTED TECH", numero: "254762016957" }, 
-      { nom: "FRANCE KING", numero: "254742063632" }, 
+      { nom: "BELTAH", numero: "254114141192" },
+      { nom: "᚛IBRAHIM ADAMS᚜", numero: "254710772666" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋WELCOME TO BELTAH-MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO BELTAH-MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
-      message += `----------------\n⏣ ${dev.nom} : https://wa.me/${dev.numero}\n`;
+      message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
   var lien = mybotpic()
     if (lien.match(/\.(mp4|gif)$/i)) {
@@ -101,4 +98,3 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
   await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING BELTAH-MD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
-
