@@ -57,6 +57,7 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "⛑️" }, async (dest, 
     const devs = [
       { nom: "BELTAH TECH", numero: "254114141192" },
       { nom: "BELTAH KE", numero: "254737681758" },
+      { nom: "IBRAHIM ADAMS",numero: " 25471077266" },
       { nom: "GIFTED TECH", numero: "254762016957" }, 
       { nom: "FRANCE KING", numero: "254742063632" }, 
       // Ajoute d'autres développeurs ici avec leur nom et numéro
