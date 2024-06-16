@@ -26,8 +26,8 @@ console.log("mon test");
 
 zokou({ nomCom: "developer", reaction: "🌟", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = ' *HERE ARE MY OWNER INFO* \n\n✇ *NAME* : Brian Kanyiri Wainaina\n✇ *AGE* : 21 years\n✇ *SEX* : MALE\n✇ *RELIGION* :Christian\n✇ *TEAM* :Manchester United\n✇ *REAL LIFE* :I am a plumber, I never learned about coding,,\n✇ *CONTACT INFO* :👇 👇 \n';
-    let d = '𓄂 https://wa.me/254114141192\n\n *THANK YOU FOR LOVING BELTAH-MD*. ';
+    let z = ' *HERE ARE MY OWNER INFO* \n\n✇ *NAME* : Brian Kanyiri Wainaina\n✇ *AGE* : 21 years\n✇ *SEX* : MALE\n✇ *RELIGION* : Christian\n✇ *NATIONALITY* :Kenyan 🇰🇪\n✇ *FAV TEAM* :Manchester United\n✇ *REAL LIFE* :I am a plumber, I never learned about coding.\n✇ *HOBBY* : Scrolling on websites\n✇ *CONTACT BELTAH* :👇 👇 \n';
+    let d = '𓄂 https://wa.me/254114141192\n𓄂 https://wa.me/254737681758\n\n *THANK YOU FOR LOVING BELTAH-MD*. ';
     let varmess = z + d;
     var img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
@@ -40,7 +40,7 @@ zokou({ nomCom: "test", reaction: "✅", nomFichier: __filename }, async (dest, 
     let z = ' *☹︎ BELTAH-MD BOT IS CURRENTLY ACTIVE ☹︎*\n';
     let d = ' ❄︎ *_MADE ON EARTH BY BELTAH TECH TEAM_* ❄︎';
     let varmess = z + d;
-    var img = '';
+    var img = 'https://telegra.ph/file/bc12002382105e156a9d1.mp4';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
@@ -48,10 +48,21 @@ console.log("mon test");
 
 zokou({ nomCom: "bot", reaction: "🤖", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = ' *BELTAH-MD MAIN FEATURES* \n\n 1.Auto view status✅\n 2 .Always online✅\n 3.A1 chat gpt enabled \n 4.Download songs/images✅\n 5.Open view once photos✅\n 6.Antidelete messages✅\n 7.Auto block contacts✅\n 8. Auto bluetick✅\n\n';
+    let z = ' *BELTAH-MD MAIN FEATURES* \n\n 1.Auto view status✅\n 2.Always online✅\n 3.A1 chat gpt enabled \n 4.Download songs/images✅\n 5.Open view once photos✅\n 6.Antidelete messages✅\n 7.Auto block contacts✅\n 8.Auto bluetick✅\n\n';
     let d = ' *THANK YOU FOR LOVING BELTAH-MD*';
     let varmess = z + d;
     var img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
+    await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
+    //console.log("montest")
+});
+console.log("mon test");
+
+zokou({ nomCom: "gay", reaction: "😳", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+    console.log("Commande saisie !!!s");
+    let z = ' *FUCK MEHN,,, THIS GUY IS GAY😳😳*\n';
+    let d = 'WHY WOULD YOU COMMAND THIS BOT TO DO THAT TASK';
+    let varmess = z + d;
+    var img = 'https://telegra.ph/file/bc12002382105e156a9d1.mp4';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
