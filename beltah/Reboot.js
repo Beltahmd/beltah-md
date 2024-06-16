@@ -7,7 +7,7 @@
 
 
 
-const {france}=require("../framework/france")
+const {zokou}=require("../framework/zokou")
 
 
 
