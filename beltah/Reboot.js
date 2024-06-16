@@ -15,7 +15,7 @@ const {zokou}=require("../framework/zokou")
 
 
 
-france({nomCom:"reboot",categorie:"Mods",reaction:"👨🏿‍💼"},async(dest,z,com)=>{
+zokou({nomCom:"reboot",categorie:"Mods",reaction:"👨🏿‍💼"},async(dest,z,com)=>{
 
 
   
