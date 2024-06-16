@@ -57,12 +57,12 @@ zokou({ nomCom: "bot", reaction: "🤖", nomFichier: __filename }, async (dest, 
 });
 console.log("mon test");
 
-zokou({ nomCom: "gay", reaction: "😳", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "g*y", reaction: "🏳️‍🌈", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = ' *FUCK MEHN,,, THIS GUY IS GAY😳😳*\n';
-    let d = 'WHY WOULD YOU COMMAND THIS BOT TO DO THAT TASK';
+    let z = ' *F*CK MEHN,,, THIS GUY IS G*Y🏳️‍🌈🏳️‍🌈🏳️‍🌈🏳️‍🌈*\n';
+    let d = 'WHY WOULD YOU REQUEST THAT COMMAND IF NOT';
     let varmess = z + d;
-    var img = 'https://telegra.ph/file/bc12002382105e156a9d1.mp4';
+    var img = 'https://telegra.ph/file/5d4c27c77b240483e7b05.png';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
