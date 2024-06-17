@@ -40,7 +40,7 @@ zokou({ nomCom: "test", reaction: "✅", nomFichier: __filename }, async (dest, 
     let z = ' *☹︎ BELTAH-MD BOT IS CURRENTLY ACTIVE ☹︎*\n';
     let d = ' ❄︎ *_MADE ON EARTH BY BELTAH TECH TEAM_* ❄︎';
     let varmess = z + d;
-    var img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
+    var img = '';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
     //console.log("montest")
 });
