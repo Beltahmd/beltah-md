@@ -6,7 +6,7 @@ const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
-zokou({ nomCom: "menu2", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu3", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -32,47 +32,45 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭─────────────────✣
-│☹︎╭─────────────✣
-│☹︎│▸ *BOT-OWNER* : ${s.OWNER_NAME}
-│☹︎│▸ *TODAY* : ${date}
-│☹︎│▸ *PREFIX* : ${s.PREFIXE}
-│☹︎│▸ *WORKTYPE* : ${mode}
-│☹︎│▸ *PLUGINS* : ${cm.length} 
-│☹︎│▸ *STORAGE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│☹︎│▸ *RUNNING ON* : ${os.platform()}
-│☹︎│▸ *THEME* : *BELTAH KE*
-│☹︎╰──────────────✇
-╰──────────────────✇
-╭───────────────✣
-...《《 *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V3.0.0* 》》...
-╰───────────────✇\n`;
+╭──✅✅《 《𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗》 》✅✅
+┴ ╭─────────────✅
+✅│▸ *ADMIN* : ${s.OWNER_NAME}
+✅│▸ *CALENDER* : ${date}
+✅│▸ *PREFIX* : ${s.PREFIXE}
+✅│▸ *BOT IN* : ${mode} mode
+✅│▸ *ORDERS* : ${cm.length} 
+✅│▸ *SPACE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+✅│▸ *CHROME* : ${os.platform()}
+✅│▸ *THEME* : *BELTAH KE*
+┬ ╰──────────────✅
+╰─── ···▸💰LIKE A BOSS💰··──✅\n`;
     
 let menuMsg = `
-╭─────────✣
-   *like a boss*
-╰─────────✣
+✅─────✅──────✅
+✅ *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V3.0.0* ✅
+✅─────✅──────✅
 
- *❄︎LIST PLUGINS❄︎*
+
+ *✅BELTAH-MD COMMANDS✅*
 `;
 
     for (const cat in coms) {
-        menuMsg += ` ╭──────✣ *${cat}* ✣─────☹︎`;
+        menuMsg += `╭──────✅✅ *${cat}* ✅✅`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-│✇│ ${cmd}`;
+✅│▸ ${cmd}`;
         }
         menuMsg += `
-╰────────────···▸▸ \n`
+╰────────────··✅ \n`
     }
 
     menuMsg += `
 ◇            ◇
-*»»————————— ★ ——————————««*
+*✅————————— ✅ ——————————✅*
 |⏣BELTAH-MD CREATED BY BELTAH TECH TEAM
 |⏣ *RELEASED ON : 02.06.2024*
 |⏣THANK YOU FOR CHOOSING *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗*
-*»»—————————— ★ ——————————««*
+*✅—————————— ✅ ——————————✅*
 `;
 
    var lien = mybotpic();

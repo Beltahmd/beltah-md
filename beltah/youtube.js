@@ -10,12 +10,12 @@ const yts1 = require("youtube-yts");
 zokou({
   nomCom: "play",
   categorie: "Search",
-  reaction: "💿"
+  reaction: "🎧"
 }, async (origineMessage, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
      
   if (!arg[0]) {
-    repondre("wich song do you want.");
+    repondre("wrong!!! Ie. _Play hozambe by Beltah ft shifura._");
     return;
   }
 
@@ -36,7 +36,7 @@ zokou({
 *Url :* _${videos[0].url}_
 
 
-_*BELTAH-MD IS DOWNLOADING YOUR FILE📂*_\n\n`
+_*BELTAH-MD IS DOWNLOADING YOUR FILE📂*_`
        }
 
       
@@ -89,7 +89,7 @@ zokou({
   const { arg, ms, repondre } = commandeOptions;
 
   if (!arg[0]) {
-    repondre("insert video name");
+    repondre("insert video name Ie. _video hozambee by Beltah ft shifura._");
     return;
   }
 
@@ -106,7 +106,7 @@ zokou({
         caption: `*⏣BELTAH-MD VIDEO DOWNLOADER⏣*\n\n*Video name :* _${Element.title}_
 *Time :* _${Element.timestamp}_
 *Url :* _${Element.url}_
-_*\nBELTAH MD IS DOWNLOADING YOUR FILE📂*_\n\n`
+\n\n_*BELTAH MD IS DOWNLOADING YOUR FILE📂*_`
       };
 
       zk.sendMessage(origineMessage, InfoMess, { quoted: ms });
