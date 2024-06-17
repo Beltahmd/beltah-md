@@ -32,32 +32,35 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
- 𓄂𓄂𓄂《《 *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V3.0.0* 》》𓄂𓄂𓄂
-┴╭─────────────✣
-│☹︎│▸ *BOT OWNER* : ${s.OWNER_NAME}
-│☹︎│▸ *DATE TODAY* : ${date}
-│☹︎│▸ *BOT PREFIX* : ${s.PREFIXE}
-│☹︎│▸ *BOT WORKTYPE* : ${mode}
-│☹︎│▸ *TOTAL PLUGINS* : ${cm.length} 
-│☹︎│▸ *AVAILABLE STORAGE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│☹︎│▸ *BOT RUNNING ON* : ${os.platform()}
-│☹︎│▸ *BOT THEME* : *BELTAH KE*
-┬╰──────────────✣
-╰─── ···▸💰LIKE A BOSS💰··──◆\n`;
+╭─────────────────✣
+│☹︎╭─────────────✣
+│☹︎│▸ *BOT-OWNER* : ${s.OWNER_NAME}
+│☹︎│▸ *TODAY* : ${date}
+│☹︎│▸ *PREFIX* : ${s.PREFIXE}
+│☹︎│▸ *WORKTYPE* : ${mode}
+│☹︎│▸ *PLUGINS* : ${cm.length} 
+│☹︎│▸ *STORAGE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│☹︎│▸ *RUNNING ON* : ${os.platform()}
+│☹︎│▸ *THEME* : *BELTAH KE*
+│☹︎╰──────────────✇
+╰──────────────────✇
+╭───────────────✣
+...《《 *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V3.0.0* 》》...
+╰───────────────✇\n`;
     
 let menuMsg = `
 ╭─────────✣
-    *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V3.0.0*
-     *_Made with 💎_*
+   *like a boss*
 ╰─────────✣
+
  *❄︎LIST PLUGINS❄︎*
 `;
 
     for (const cat in coms) {
-        menuMsg += `╭𓄂𓄂𓄂𓄂𓄂𓄂𓄂☹︎✣ *${cat}* ✣☹︎`;
+        menuMsg += ` ╭──────✣ *${cat}* ✣─────☹︎`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-│✇│ ${cmd} ✇`;
+│✇│ ${cmd}`;
         }
         menuMsg += `
 ╰────────────···▸▸ \n`
