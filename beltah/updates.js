@@ -67,6 +67,28 @@ zokou({ nomCom: "g*y", reaction: "🏳️‍🌈", nomFichier: __filename }, asy
     //console.log("montest")
 });
 console.log("mon test");
+
+zokou({ nomCom: "Update", reaction: "🗿", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+    console.log("Commande saisie !!!s");
+    let z = ' *BELTAH-MD UPDATES*\n\n';
+    let d = 'Checking for updates...⏳\n\nUpdatinging new version...⏳\n\ndone....✅\n\n *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 NEW VERSION SUCCESSFULLY INSTALLED...* ';
+    let varmess = z + d;
+    var img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
+    await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
+    //console.log("montest")
+});
+console.log("mon test");
+
+zokou({ nomCom: "version", reaction: "⏳", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+    console.log("Commande saisie !!!s");
+    let z = ' *YOU ARE CURRENTLY USING BELTAH-MD V3.0.0*\n\n';
+    let d = '✅latest version installed...';
+    let varmess = z + d;
+    var img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
+    await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
+    //console.log("montest")
+});
+console.log("mon test");
 /*module.exports.commande = () => {
   var nomCom = ["test","t"]
   var reaction="☺️"
