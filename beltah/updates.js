@@ -68,10 +68,10 @@ zokou({ nomCom: "g*y", reaction: "🏳️‍🌈", nomFichier: __filename }, asy
 });
 console.log("mon test");
 
-zokou({ nomCom: "Update", reaction: "🗿", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "check", reaction: "🗿", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
     let z = ' *BELTAH-MD UPDATES*\n\n';
-    let d = 'Checking for updates...⏳\n\nUpdatinging new version...⏳\n\ndone....✅\n\n *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 NEW VERSION SUCCESSFULLY INSTALLED...* ';
+    let d = 'Checking for updates...⏳\n\nUpdating new version...⏳\n\ndone....✅\n\n *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 NEW VERSION SUCCESSFULLY INSTALLED...* ';
     let varmess = z + d;
     var img = 'https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg';
     await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
