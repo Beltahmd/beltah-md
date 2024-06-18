@@ -37,7 +37,7 @@ const date = moment().format('DD/MM/YYYY');
 │☹︎│▸ *BOT-OWNER* : ${s.OWNER_NAME}
 │☹︎│▸ *TODAY* : ${date}
 │☹︎│▸ *PREFIX* : ${s.PREFIXE}
-│☹︎│▸ *WORKTYPE* : ${mode}
+│☹︎│▸ *WORKTYPE* : ${mode} mode
 │☹︎│▸ *PLUGINS* : ${cm.length} 
 │☹︎│▸ *STORAGE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │☹︎│▸ *RUNNING ON* : ${os.platform()}
@@ -45,7 +45,7 @@ const date = moment().format('DD/MM/YYYY');
 │☹︎╰──────────────✇
 ╰──────────────────✇
 ╭───────────────✣
-...《《 *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V3.0.0* 》》...
+  《《 *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V3.0.0* 》》
 ╰───────────────✇\n`;
     
 let menuMsg = `
