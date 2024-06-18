@@ -34,7 +34,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭────《《𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗》》────⬡
 ┴  ╭─────────────⬡
-│❒⁠⁠⁠⁠│*ADMIN* : ${s.OWNER_NAME}
+│❒⁠⁠⁠⁠│ *ADMIN* : ${s.OWNER_NAME}
 │❒│⁠⁠⁠⁠ *CALENDER* : ${date}
 │❒│⁠⁠⁠⁠ *PREFIX* : ${s.PREFIXE}
 │❒⁠⁠⁠⁠│⁠⁠⁠ *BOT IS IN* : ${mode} mode
@@ -55,13 +55,13 @@ let menuMsg = `
 `;
 
     for (const cat in coms) {
-        menuMsg += `╭─⬡ *${cat}* ⬡─`;
+        menuMsg += ` ╭─⬡ *${cat}* ⬡─`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 ⬡│▸ ${cmd}`;
         }
         menuMsg += `
- ╰────────────··⬡ \n`
+  ╰────────────··⬡ \n`
     }
 
     menuMsg += `
