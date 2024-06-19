@@ -858,7 +858,7 @@ zk.ev.on('group-participants.update', async (group) => {
  [youtube.com/@Beltahtech2024] 
 
   ★𝗕𝗲𝗹𝘁𝗮𝗵-𝗧𝗲𝗰𝗵-𝗧𝗲𝗮𝗺
-╚══════════════════╝;
+╚══════════════════╝`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
