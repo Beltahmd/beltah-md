@@ -56,6 +56,17 @@ zokou({ nomCom: "bot", reaction: "🤖", nomFichier: __filename }, async (dest, 
     //console.log("montest")
 });
 console.log("mon test");
+
+zokou({ nomCom: "bugmenu", reaction: "🐛", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+    console.log("Commande saisie !!!s");
+    let z = ' ┌───〈 𝗕𝗘𝗟𝗧𝗔𝗛-𝗠𝗗 𝗕𝗨𝗚 𝗠𝗘𝗡𝗨  〉───◆\n│╭─────────────···\n┴│▸\n⬡│▸ ʙᴜɢ\n⬡│▸ ʙᴜɢᴠ\n⬡│▸ ʙᴜɢʀᴇᴀᴄᴛ\n⬡│▸ ᴀᴜᴅɪᴏʙᴜɢ\n⬡│▸ ɪᴏꜱʙᴜɢ\n⬡│▸ ɪᴏꜱʙᴜɢᴠ\n┬│▸\n│╰────────────···▸▸\n';
+    let d = '└───────────────···▸';
+    let varmess = z + d;
+    var img = 'https://telegra.ph/file/e24fe04ebb2353c3c693e.jpg';
+    await zk.sendMessage(dest, { image: { url: img }, caption: varmess });
+    //console.log("montest")
+});
+console.log("mon test");
 /*module.exports.commande = () => {
   var nomCom = ["test","t"]
   var reaction="☺️"
