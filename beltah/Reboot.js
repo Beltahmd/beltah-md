@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 const {zokou}=require("../framework/zokou")
 
 
@@ -15,7 +6,7 @@ const {zokou}=require("../framework/zokou")
 
 
 
-zokou({nomCom:"reboot",categorie:"Mods",reaction:"📴"},async(dest,z,com)=>{
+zokou({nomCom:"restart",categorie:"Mods",reaction:"📴"},async(dest,z,com)=>{
 
 
   
@@ -28,7 +19,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("*Rebooting...*");
+    repondre("*Beltah-md bot is Restarting from the saver...*");
 
   exec("pm2 restart all");
   
