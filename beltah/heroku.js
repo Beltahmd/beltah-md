@@ -32,7 +32,7 @@ zokou(
 
 zokou(
     {
-        nomCom : "getallvar",
+        nomCom : "allvar",
         categorie : "heroku"
     }, async (dest , zk , commandeOptions) =>{
 
@@ -50,7 +50,7 @@ zokou(
             let h = await heroku.get(baseURI+'/config-vars')
 let str = '*Beltah-Md All Vars*\n\n'
 for (vr in h) {
-str+= '☉ *'+vr+'* '+'= '+h[vr]+'\n'
+str+= '◔͜͡◔ *'+vr+'* '+'= '+h[vr]+'\n'
 }
  repondre(str)
 
