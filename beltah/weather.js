@@ -1,11 +1,22 @@
-
-
-
-
-
-
-
-
-
-
-function _0x1f98(_0x2d4297,_0x1d253c){const _0x4c47a6=_0x4c47();return _0x1f98=function(_0x1f9894,_0x3ffa9e){_0x1f9894=_0x1f9894-0x1d6;let _0x11f627=_0x4c47a6[_0x1f9894];return _0x11f627;},_0x1f98(_0x2d4297,_0x1d253c);}const _0x3eca1a=_0x1f98;function _0x4c47(){const _0x119908=['axios','244931kxHvtm','description','\x0a🗺\x20country:\x20','wind','rain','1556724EKMzBR','13959HnBKwt','join','2urDYwP','Search','°C\x0a📝\x20Description:\x20','104dPMMjy','toLocaleTimeString','name','\x20m/s\x0a🌧️\x20Rain\x20Volume\x20(last\x20hour):\x20','2420mQdrnC','\x0a🌅\x20Sunset:\x20','308574CYuLQT','temp_max','🌡️','4369939iqpEhP','1497276PQmkZQ','json','sunrise','feels_like','12085xnjMZS','&units=metric&appid=060a6bcfa19809c2cd4d97a212b19273&language=en','main','sys','304tweTXU','\x0a\x0a🌡️Temperature:\x20','Give\x20me\x20location...','weather','speed'];_0x4c47=function(){return _0x119908;};return _0x4c47();}(function(_0x15351d,_0x477126){const _0x51b1b9=_0x1f98,_0x117833=_0x15351d();while(!![]){try{const _0x270562=-parseInt(_0x51b1b9(0x1e7))/0x1*(-parseInt(_0x51b1b9(0x1ef))/0x2)+parseInt(_0x51b1b9(0x1d9))/0x3+-parseInt(_0x51b1b9(0x1e1))/0x4*(parseInt(_0x51b1b9(0x1dd))/0x5)+-parseInt(_0x51b1b9(0x1ec))/0x6+-parseInt(_0x51b1b9(0x1d8))/0x7+-parseInt(_0x51b1b9(0x1f2))/0x8*(-parseInt(_0x51b1b9(0x1f8))/0x9)+parseInt(_0x51b1b9(0x1f6))/0xa*(parseInt(_0x51b1b9(0x1ed))/0xb);if(_0x270562===_0x477126)break;else _0x117833['push'](_0x117833['shift']());}catch(_0x4a111f){_0x117833['push'](_0x117833['shift']());}}}(_0x4c47,0x68d68));const axios=require(_0x3eca1a(0x1e6)),fs=require('fs'),{france}=require('../framework/france'),{writeFile}=require('fs/promises');france({'nomCom':_0x3eca1a(0x1e4),'reaction':_0x3eca1a(0x1d7),'categorie':_0x3eca1a(0x1f0)},async(_0x66e263,_0x112805,_0x550237)=>{const _0x592aa3=_0x3eca1a,{repondre:_0x287d95,arg:_0x535a97,ms:_0x6f43f6}=_0x550237,_0x3c0886=_0x535a97[_0x592aa3(0x1ee)]('\x20');if(!_0x3c0886)return _0x287d95(_0x592aa3(0x1e3));const _0x50a4d6=await fetch('https://api.openweathermap.org/data/2.5/weather?q='+_0x3c0886+_0x592aa3(0x1de)),_0x389590=await _0x50a4d6[_0x592aa3(0x1da)](),_0x341f70=_0x389590[_0x592aa3(0x1f4)],_0x4545a5=_0x389590[_0x592aa3(0x1df)]['temp'],_0x31bcda=_0x389590[_0x592aa3(0x1df)][_0x592aa3(0x1dc)],_0x2739f5=_0x389590['main']['temp_min'],_0x44481d=_0x389590['main'][_0x592aa3(0x1d6)],_0x3c41a2=_0x389590[_0x592aa3(0x1e4)][0x0][_0x592aa3(0x1e8)],_0x2a2bd0=_0x389590[_0x592aa3(0x1df)]['humidity'],_0x4cd347=_0x389590[_0x592aa3(0x1ea)][_0x592aa3(0x1e5)],_0x5eb58c=_0x389590[_0x592aa3(0x1eb)]?_0x389590[_0x592aa3(0x1eb)]['1h']:0x0,_0x5c09f6=_0x389590['clouds']['all'],_0x1fa264=new Date(_0x389590[_0x592aa3(0x1e0)][_0x592aa3(0x1db)]*0x3e8),_0x5671f1=new Date(_0x389590[_0x592aa3(0x1e0)]['sunset']*0x3e8),_0x429926=_0x389590[_0x592aa3(0x1e0)]['country'];await _0x287d95('❄️\x20Weather\x20in\x20'+_0x341f70+_0x592aa3(0x1e2)+_0x4545a5+_0x592aa3(0x1f1)+_0x3c41a2+'\x0a❄️\x20Humidity:\x20'+_0x2a2bd0+'%\x0a🌀\x20Wind\x20Speed:\x20'+_0x4cd347+_0x592aa3(0x1f5)+_0x5eb58c+'\x20mm\x0a☁️\x20Cloudiness:\x20'+_0x5c09f6+'%\x0a🌄\x20Sunrise:\x20'+_0x1fa264['toLocaleTimeString']()+_0x592aa3(0x1f7)+_0x5671f1[_0x592aa3(0x1f3)]()+_0x592aa3(0x1e9)+_0x429926+'\x0a\x0a\x20\x20\x20\x20°Powered\x20by\x20*BMW-MD*\x20');});
+const { zokou } = require("../framework/zokou")
+  'nomCom': "weather",
+  'reaction': "🌡️",
+  'categorie': "Search"
+}, async (_0x626df9, _0x17e5bb, _0x37baf6) => {
+  const _0x445647 = _0x1180fa.join(" ");
+  if (!_0x445647) {
+    return _0xecdf09("Give me location...");
+  }
+  const _0x470189 = await fetch("https://api.openweathermap.org/data/2.5/weather?q=" + _0x445647 + "&units=metric&appid=060a6bcfa19809c2cd4d97a212b19273&language=en");
+  const _0x4bfc6 = await _0x470189.json();
+  const _0x3cf19a = _0x4bfc6.name;
+  const _0x52e997 = _0x4bfc6.main.temp;
+  const _0x32180e = _0x4bfc6.weather[0x0].description;
+  const _0x2da493 = _0x4bfc6.main.humidity;
+  const _0x368581 = _0x4bfc6.wind.speed;
+  const _0x28a97c = _0x4bfc6.rain ? _0x4bfc6.rain['1h'] : 0x0;
+  const _0x39a4af = _0x4bfc6.clouds.all;
+  const _0x41b2f8 = new Date(_0x4bfc6.sys.sunrise * 0x3e8);
+  const _0x4393a0 = new Date(_0x4bfc6.sys.sunset * 0x3e8);
+  await _0xecdf09(" *BELTAH-MD WEATHER UPDATES* \n\n❄️ Weather in " + _0x3cf19a + "\n\n🌡️ *Temperature:* " + _0x52e997 + "°C\n📝 *Description:* " + _0x32180e + "\n❄️ *Humidity:* " + _0x2da493 + "%\n🌀 *Wind Speed:* " + _0x368581 + " m/s\n🌧️ *Rain Volume (last hour):* " + _0x28a97c + " mm\n☁️ *Cloudiness:* " + _0x39a4af + "%\n🌄 *Sunrise:* " + _0x41b2f8.toLocaleTimeString() + "\n🌅 *Sunset:* " + _0x4393a0.toLocaleTimeString() + "\n🌫️ *Latitude:* " + _0x4bfc6.coord.lat + "\n🌪️ *Longitude:* " + _0x4bfc6.coord.lon + "\n\n🗺 *Country:* " + _0x4bfc6.sys.country + "\n\n\n*°Powered by BELTAH-MD*");
+});
