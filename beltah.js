@@ -144,7 +144,7 @@ setTimeout(() => {
             var auteurMsgRepondu = decodeJid(ms.message?.extendedTextMessage?.contextInfo?.participant);
             //ms.message.extendedTextMessage?.contextInfo?.mentionedJid
             // ms.message.extendedTextMessage?.contextInfo?.quotedMessage.
-            var mr = ms.message?.extendedTextMessage?.contextInfo?.mentionedJid;
+            var mr = ms.Message.extendedTextMessage?.contextInfo?.mentionedJid;
             var utilisateur = mr ? mr : msgRepondu ? auteurMsgRepondu : "";
             var auteurMessage = verifGroupe ? (ms.key.participant ? ms.key.participant : ms.participant) : origineMessage;
             if (ms.key.fromMe) {
@@ -845,14 +845,15 @@ zk.ev.on('group-participants.update', async (group) => {
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `❒⁠⁠⁠⁠ 𝗕𝗘𝗟𝗧𝗔𝗛-𝗠𝗗 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 ❒⁠⁠⁠⁠
+                let cmsg = `BELTAH MD CONNECTED
 
-❒Developer: 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑
-❒⁠⁠⁠⁠Prefix   : [ ${prefixe} ]  
-❒⁠⁠⁠⁠Mode     : ${md}
-❒⁠⁠⁠⁠Plugins  : ${evt.cm.length}︎
-❒⁠⁠⁠⁠Subscribe: 
- [youtube.com/@Beltahtech2024].`;
+  ⁠Prefix   : [ ${prefixe} ]  
+  ⁠⁠⁠⁠Mode     : ${md}
+  Plugins  : ${evt.cm.length}
+  ︎Developer:𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑
+ 
+  SUPPORT BY SUBSCRIBING
+  [youtube.com/@Beltahtech2024].`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
