@@ -845,15 +845,15 @@ zk.ev.on('group-participants.update', async (group) => {
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `BELTAH-MD is active now.
+                let cmsg = ` BELTAH-MD is active now.
 
   ⁠Prefix   : [ ${prefixe} ]  
   ⁠⁠⁠⁠Mode     : ${md}
   Plugins  : ${evt.cm.length}
   Owner    : Beltah Ke
  
-SUPPORT BY SUBSCRIBING
-youtube.com/@Beltahtech2024 `;
+ SUPPORT BY SUBSCRIBING
+ youtube.com/@Beltahtech2024 `;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
