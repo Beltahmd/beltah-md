@@ -144,7 +144,7 @@ setTimeout(() => {
             var auteurMsgRepondu = decodeJid(ms.message?.extendedTextMessage?.contextInfo?.participant);
             //ms.message.extendedTextMessage?.contextInfo?.mentionedJid
             // ms.message.extendedTextMessage?.contextInfo?.quotedMessage.
-            var mr = ms.Message.extendedTextMessage?.contextInfo?.mentionedJid;
+            var mr = ms.Message?.extendedTextMessage?.contextInfo?.mentionedJid;
             var utilisateur = mr ? mr : msgRepondu ? auteurMsgRepondu : "";
             var auteurMessage = verifGroupe ? (ms.key.participant ? ms.key.participant : ms.participant) : origineMessage;
             if (ms.key.fromMe) {
@@ -846,11 +846,9 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg = `BELTAH-MD is active now.
+                let cmsg = `BELTAH-MD is active now
 
-
-
-⁠  Prefix   : [ ${prefixe} ]  
+  Prefix   : [ ${prefixe} ]  
   ⁠⁠⁠⁠Mode    : ${md}
   Plugins  : ${evt.cm.length}
   Owner  :  Beltah Ke
