@@ -32,24 +32,25 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*BELTAH-MD MAIN MENU* 
+*BELTAH-MD AVAILABLE MENUS* 
 ╭─────────────────✣
-│☹︎╭─────────────✣
-│☹︎│▸ *MENU1* 
-│☹︎│▸ *MENU2* 
-│☹︎│▸ *MENU3
-│☹︎│▸ *PLUGINS* : ${cm.length} 
-│☹︎│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│☹︎│▸ *SAVER* : ${os.platform()}
-│☹︎│▸ *THEME* : *BELTAH KE*
-│☹︎╰──────────────✇
+│❒⁠⁠⁠⁠╭─────────────✣
+│❒⁠⁠⁠⁠│▸ *MENU1* 
+│❒⁠⁠⁠⁠│▸ *MENU2* 
+│❒⁠⁠⁠⁠│▸ *MENU3*
+│❒⁠⁠⁠⁠╰──────────────✇
+│❒⁠⁠⁠⁠│▸ *PLUGINS* : ${cm.length} 
+│❒⁠⁠⁠⁠│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│❒⁠⁠⁠⁠│▸ *SAVER* : ${os.platform()}
+│❒⁠⁠⁠⁠│▸ *THEME* : *BELTAH KE*
+│❒⁠⁠⁠⁠╰──────────────✇
 ╰──────────────────✇\n`;
     
 let menuMsg = `
 ╭─────────❒⁠⁠⁠⁠
-   *like a boss
+   *like a boss*
 ╰─────────❒
-   ⁠⁠⁠⁠*MADE EASY BY BELTAH*
+   ⁠⁠⁠⁠◔͜͡◔MADE EASY BY BELTAH◔͜͡◔
 ╰───────────────────⏣`;
 
    var lien = mybotpic();
