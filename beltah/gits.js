@@ -5,7 +5,8 @@ zokou({
   'nomCom': 'github',
   'reaction': '📃',
   'categorie': "Search"
-}, async (_0x52e003, _0x14d9f6, _0x5f1e4d) => {
+}, 
+  async (_0x52e003, _0x14d9f6, _0x5f1e4d) => {
   const _0x3c7f3f = _0x4f7595.join(" ");
   if (!_0x3c7f3f) {
     return _0x3b1d82("Give me a valid github username like: " + _0x4fdb82 + "github Beltahmd");
