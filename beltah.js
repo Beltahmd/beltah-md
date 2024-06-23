@@ -848,9 +848,7 @@ zk.ev.on('group-participants.update', async (group) => {
 
                 let cmsg = `BELTAH-MD is active now.
 
-
-
-⁠  Prefix   : [ ${prefixe} ]  
+  Prefix   : [ ${prefixe} ]  
   ⁠⁠⁠⁠Mode    : ${md}
   Plugins  : ${evt.cm.length}
   Owner  :  Beltah Ke
