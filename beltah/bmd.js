@@ -8,6 +8,7 @@ const {
 } = require("../framework/zokou");
 zokou({
   'nomCom': "bmd",
+  'category': 'general', 
   'reaction': '🍾',
   'nomFichier': __filename
 }, async (_0x969b1f, _0x2501c9, _0x849359) => {
