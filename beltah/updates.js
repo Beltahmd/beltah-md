@@ -101,9 +101,9 @@ zokou({ nomCom: "bugmenu", reaction: "🐛", nomFichier: __filename }, async (de
 });
 console.log("mon test");
 
-zokou({ nomCom: "genz", nomCom: "gen z", reaction: "🇰🇪", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "genz", reaction: "🇰🇪", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
     console.log("Commande saisie !!!s");
-    let z = ' *❒⁠⁠⁠⁠ #REJECTFINANCEBILL2024 ❒⁠⁠⁠⁠*\n\nClick The link below to Join *❒⁠⁠⁠⁠GEN Z❒* official ⁠⁠⁠⁠ WhatsApp Channel\nHelp us grow and reject that piece of shiet.\n\n';
+    let z = ' *❒⁠⁠⁠⁠ #REJECTFINANCEBILL2024 ❒⁠⁠⁠⁠*\n\nClick The link below to Join *❒⁠⁠⁠⁠GEN Z❒* official⁠⁠⁠⁠ WhatsApp Channel\nHelp us grow and reject that piece of shiet.\n\n';
     let d = 'https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F';
     let varmess = z + d;
     var img = 'https://telegra.ph/file/848e7f1f2b56721405cfc.jpg';
