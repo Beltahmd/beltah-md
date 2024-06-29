@@ -846,16 +846,13 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =` > BELTAH-MD BOT CONNECTED...
+                let cmsg =`
+> BELTAH-MD BOT CONNECTED...
 
- 
-  > Prefix   :  [ ${prefixe} ]   
-  ⁠⁠⁠⁠
-  > Mode    : ${md}
-  
-  > Plugins  : ${evt.cm.length} 
-  
-  > Owner  :  Beltah Ke
+   Prefix   :  [ ${prefixe} ]   
+  ⁠⁠⁠⁠ Mode    : ${md}
+   Plugins  : ${evt.cm.length} 
+   Owner  :  Beltah Ke
  
 > SUPPORT BY SUBSCRIBING
 
