@@ -31,7 +31,7 @@ zokou({
     arg: _0x402724,
     repondre: _0x2c0d2b
   } = _0x282835;
-  await _0x2c0d2b("> *BELTAH-MD pinging now")
+  await _0x2c0d2b("> BELTAH-MD pinging now")
   await _0x2c0d2b("> *Pong"\n + flashspeed + " ms");
 });
 zokou({
