@@ -6,7 +6,7 @@ function zokou(obj, fonctions) {
         infoComs.categorie = "General";
     }
     if (!obj.reaction) {
-        infoComs.reaction = "📲";
+        infoComs.reaction = "😬";
     }
     infoComs.fonction = fonctions;
     cm.push(infoComs);
