@@ -71,7 +71,8 @@
 
  ## CONTACT DEVELOPER ON WHATSAPP 
 <a href="https://wa.me/254114141192" target="_blank">
-    <img alt="Beltah Tech" src="https:///badge/ Beltah Tech 254-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+    <img alt="Beltah Tech" src="https:///badge/ Beltah WA contact
+      -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 </p>
 
