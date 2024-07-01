@@ -98,8 +98,8 @@
     "value": "yes"
   },
   "PRESENCE":{
-    "description":"Mark your presence: |online| to indicate that you are online even if you are not. |typing| to indicate that you are currently typing a message. |recording| to indicate that you are currently recording an audio.leave the field blank to indicate your real state.",
-    "value":"typing",  
+    "description":"Mark your presence: 1 for always online.2 to indicate that you are currently typing a message.3 to indicate that you are currently recording an audio.leave the field blank to indicate your real state.",
+    "value":"2",  
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
