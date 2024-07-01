@@ -1,6 +1,6 @@
 {
   "name":"𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗",
-  "description":"Deploy now your 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 bot, BELTAH-MD was developed by Beltah.Make sure you fill all valuables to avoid bot from sleeping. ",
+  "description":"Deploy now your 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 bot, BELTAH-MD was developed by Beltah.Make sure you fill all valuables accordingly. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
   "repository":"https://github.com/Beltahmd/beltah-md",
@@ -42,7 +42,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/81d4a442a1bd96339924e.mp4,https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
+      "value":"https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
       "required":false
        
      },
@@ -55,7 +55,7 @@
 	,
     "HEROKU_APY_KEY": {
     "description": "insert your heroku api-key ",
-     "value":"",
+     "value":"HRKU-894e8a53-4171-4343-9db9-3db21c66cc57",
 	"required" :true
     },
   "HEROKU_APP_NAME": {
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Beltahdev"
+    "value": "Beltah Tech 254🇰🇪"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254114141192,254737681758"
+    "value": "254114141192"
   },
     "WARN_COUNT":
   {
@@ -98,8 +98,8 @@
     "value": "yes"
   },
   "PRESENCE":{
-    "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",  
+    "description":"Mark your presence: |online| to indicate that you are online even if you are not. |typing| to indicate that you are currently typing a message. |recording| to indicate that you are currently recording an audio.leave the field blank to indicate your real state.",
+    "value":"typing",  
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
