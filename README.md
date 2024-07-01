@@ -22,48 +22,58 @@
 <a href="https://github.com/Beltahmd/beltah-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Beltahmd/beltah-md?style=social"></a>
 <a href="https://github.com/Beltahmd/beltah-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Beltahmd/beltah-md?label=Watching&style=social"></a>
 
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+  
   ## Follow our official channel
 <a href="https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F" target="_blank">
     <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Channel -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
-  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 ## SETUP FOR 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗
 
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+  
 **CLICK HERE 👇 TO FORK**
 
 <a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20Beltahmd%20Repo-blue" alt="FORK BELTAH-MD REPO" width="150"></a>
 
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 ## GET YOUR SESSION ID: 
 
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+  
 **CLICK HERE 👇 TO PAIR**
 
 <a href="https://pair-bel-tah-b427bf12d2e2.herokuapp.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-green" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
 
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 **CLICK HERE 👇 TO SCAN QR**
 
 <a href="https://pair-bel-tah-b427bf12d2e2.herokuapp.com/qr"><img src="https://img.shields.io/badge/QR%20session%20code-red" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## VISIT OUR SITES
-<a href="https://github.com/IBRAHIM-TECH-AI/DEPLOYMENT-SITE"><img src="https://img.shields.io/badge/host%20bots%20now" alt="Deploy Free bots" width="150"></a>
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-**CLICK HERE 👇 TO WATCH TUTORIAL**
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-<a href="https://www.youtube.com/@Beltahtech2024"><img src="https://img.shields.io/badge/WATCH%20FULL%20TUTORIAL-red" alt="FULL TUTORIAL HERE" width="150"></a>
-
-
-## 4. DEPLOY NOW ON HEROKU 
+## 4. DEPLOY BELTAH-MD ON HEROKU 
 <h1 align="center">
  
  ***[![DEPLOY NOW ON HEROKU](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Beltahmd/beltah-md&template=https://github.com/Beltahmd/beltah-md.git)***
 
- ## CONTACT DEVELOPER
+ <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-⏣REACH BELTAH-MD DEVELOPER ON WHATSAPP BY CLICKING 
-[**HERE**](https://wa.me/254114141192)  
+## DEPLOY ANY BOT OF YOUR CHOICE
 
-AND ON TELEGRAM BY CLICKING 
-[**HERE**](https://t.me/beltah254) 
+<a href="https://github.com/IBRAHIM-TECH-AI/SESSION-SITE/tree/main"><img title="Deploy the bot of your choice" src="https://img.shields.io/badge/DEPLOY ANY BOT-h?color=red&style=for-the-badge&logo=msi" width="220" height="38.45"/></a></p>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+ ## CONTACT DEVELOPER ON WHATSAPP 
+<a href="https://wa.me/254114141192" target="_blank">
+    <img alt="Beltah Tech" src="https://img.shields.io/Beltah Tech 254-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+</p>
 
 ## CONTRIBUTIONS
 
