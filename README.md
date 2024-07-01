@@ -1,6 +1,5 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-## BELTAH-MD V3.0.0 
-   ***MADE WITH 💎***
+## BELTAH-MD V4.0.0
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <div align="center">
@@ -22,7 +21,12 @@
 <a href="https://github.com/Beltahmd/beltah-md/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/Beltahmd/beltah-md?&style=social"></a>
 <a href="https://github.com/Beltahmd/beltah-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Beltahmd/beltah-md?style=social"></a>
 <a href="https://github.com/Beltahmd/beltah-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Beltahmd/beltah-md?label=Watching&style=social"></a>
-  
+
+  ## Follow our official channel
+<a href="https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F" target="_blank">
+    <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Channel -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+  <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 ## SETUP FOR 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗
 
 **CLICK HERE 👇 TO FORK**
@@ -38,7 +42,11 @@
 **CLICK HERE 👇 TO SCAN QR**
 
 <a href="https://pair-bel-tah-b427bf12d2e2.herokuapp.com/qr"><img src="https://img.shields.io/badge/QR%20session%20code-red" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
+## VISIT OUR SITES
+<a href="https://github.com/IBRAHIM-TECH-AI/DEPLOYMENT-SITE"><img src="https://img.shields.io/badge/host%20bots%20now" alt="Deploy Free bots" width="150"></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 **CLICK HERE 👇 TO WATCH TUTORIAL**
 
 <a href="https://www.youtube.com/@Beltahtech2024"><img src="https://img.shields.io/badge/WATCH%20FULL%20TUTORIAL-red" alt="FULL TUTORIAL HERE" width="150"></a>
