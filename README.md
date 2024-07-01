@@ -51,22 +51,15 @@
 
  ## CONTACT DEVELOPER
 
-⏣REACH BELTAH-MD DEVELOPER ON WHATSAPP BY CLICKING  [**HERE**](https://wa.me/254114141192)  AND ON TELEGRAM BY CLICKING  [**HERE**](https://t.me/beltah254) 
+⏣REACH BELTAH-MD DEVELOPER ON WHATSAPP BY CLICKING 
+[**HERE**](https://wa.me/254114141192)  
+
+AND ON TELEGRAM BY CLICKING 
+[**HERE**](https://t.me/beltah254) 
 
 ## CONTRIBUTIONS
 
 Contributions to BELTAH-MD are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request. <br>
-
-  ## THANKS TO MY FELLOW DEV FOR;
-
-    [FRANCE KING] 
-    
-Who added commands (uptime, ping, vv, ss, repo); <br>
-
-    [GIFTED TECH]
-    
-Who helped in commands addition 
-(ai, dalle, gpt4, gpt, starting up message for bot, updated index. Js) ;
 
 ## License
 
@@ -74,7 +67,7 @@ The WhatsApp Bot 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 is released under the [MIT Li
 
 🌟 THANK YOU FOR CHOOSING BELTAH-MD 🌟
 
-## DEVELOPERS :
+## THANKS TO :
 
 - [**BELTAH TECH**](https://github.com/Beltahmd)
 - [**FRANCE KING**](https://github.com/franceking1)
