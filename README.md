@@ -70,10 +70,10 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
  ## CONTACT DEVELOPER ON WHATSAPP 
+ 
 <a href="https://wa.me/254114141192" target="_blank">
-    <img alt="Beltah Tech" src="https:///badge/ Beltah WA contact
-      -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
+    <img alt="whatsapp Group" src="https://img.shields.io/badge/ Beltah Tech contact -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a> 
 </p>
 
 ## CONTRIBUTIONS
