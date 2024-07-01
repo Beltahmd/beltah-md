@@ -187,11 +187,11 @@ setTimeout(() => {
             }
 
             var etat =conf.ETAT;
-            if(etat:"online")
+            if(etat==1)
             {await zk.sendPresenceUpdate("available",origineMessage);}
-            else if(etat:"typing")
+            else if(etat==2)
             {await zk.sendPresenceUpdate("composing",origineMessage);}
-            else if(etat:"recording")
+            else if(etat==3)
             {
             await zk.sendPresenceUpdate("recording",origineMessage);
             }
