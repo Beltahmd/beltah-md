@@ -846,7 +846,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`❒ ⁠⁠⁠⁠BELTAH-MD IS ONLINE ❒⁠⁠⁠⁠
+                let cmsg =`❒❒⁠⁠⁠⁠ ⁠⁠⁠⁠BELTAH-MD IS ONLINE ❒⁠⁠⁠⁠❒⁠⁠⁠⁠
                 
 ╭─────────❒⁠⁠⁠⁠              
 > Prefix   :  [ ${prefixe} ]   
@@ -854,8 +854,8 @@ zk.ev.on('group-participants.update', async (group) => {
 > Plugins : ${evt.cm.length} 
 > Owner  :  Beltah Ke
 ╰─────────❒
- SUPPORT BY SUBSCRIBING
-  youtube.com/@Beltahtech2024
+ *MUST FOLLOW THIS CHANNEL FOR UPDATES*
+   https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F
 ╰─────────────────❒`;
 
                 await zk.sendMessage(zk.user.id, { text: cmsg });
