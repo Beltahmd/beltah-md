@@ -5,6 +5,8 @@ const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
+const more = String.fromCharCode(8206)
+const readmore = more.repeat(4001)
 
 zokou({ nomCom: "menu3", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
@@ -48,12 +50,12 @@ const date = moment().format('DD/MM/YYYY');
 ╰─── ···▸ *💰LIKE A BOSS💰* ··──⬡
 > ╭─────────────✣
 > 《《 *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V4.0.0* 》》
-> ╰─────────────✇\n\n\n`;
+> ╰─────────────✇\n\n\n${readmore}`;
     
 let menuMsg = `
 
 
-*BELTAH-MD COMMANDS*
+*BELTAH-MD COMMANDS*${readmore}
 `;
 
     for (const cat in coms) {
