@@ -5,6 +5,8 @@ const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
+const more = String.fromCharCode(8206)
+const readmore = more.repeat(4001)
 
 zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
@@ -44,7 +46,7 @@ const date = moment().format('DD/MM/YYYY');
 │❒⁠⁠⁠⁠│▸ *SAVER* : ${os.platform()}
 │❒⁠⁠⁠⁠│▸ *THEME* : *BELTAH KE*
 │❒⁠⁠⁠⁠╰──────────────✇
-╰──────────────────✇\n`;
+╰──────────────────✇\n $(readmore)`;
     
 let menuMsg = `
 > Hello ${nomAuteurMessage},,, Type menu1,menu2 or menu3 to access a list of commands. 
