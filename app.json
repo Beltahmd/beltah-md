@@ -55,7 +55,7 @@
 	,
     "HEROKU_APY_KEY": {
     "description": "insert your heroku api-key ",
-     "value":"HRKU-894e8a53-4171-4343-9db9-3db21c66cc57",
+     "value":"HRKU-8c311194-cd14-430a-a93c-1cdd8b9ea8c8",
 	"required" :true
     },
   "HEROKU_APP_NAME": {
@@ -78,7 +78,7 @@
     "required": false,
     "value": "Beltah Tech 254🇰🇪"
   },
-    "NUMERO_OWNER":
+    "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
