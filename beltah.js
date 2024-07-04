@@ -848,19 +848,18 @@ zk.ev.on('group-participants.update', async (group) => {
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
 
-                let cmsg =`❒ ❒⁠⁠⁠⁠ ⁠⁠⁠⁠𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐈𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 ❒ ⁠⁠⁠⁠❒⁠⁠⁠⁠
+                let cmsg =`❒ ❒⁠ ⁠⁠⁠⁠𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐈𝐒 𝐎𝐍𝐋𝐈𝐍𝐄 ❒ ⁠⁠⁠⁠❒⁠⁠⁠⁠
 ╭─────────❒⁠⁠⁠⁠              
-> 𝗣𝗿𝗲𝗳𝗶𝘅   : [ ${prefixe} ]   
-> 𝗠𝗼𝗱𝗲   : ${md}
-> 𝗣𝗹𝘂𝗴𝗶𝗻𝘀  : ${evt.cm.length} 
-> 𝗥𝗔𝗠    : 128.67GB
-> 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Chrome linux
-> 𝗢𝘄𝗻𝗲𝗿   : Beltah Ke
+> Prefix   : [ ${prefixe} ]   
+> Mode   : ${md}
+> Plugins  : ${evt.cm.length} 
+> Ram   : 129.99GB
+> Platform : Chrome linux
+> Owner  : Beltah Ke
 ╰─────────❒${readmore}
- ⁠⁠⁠𝐅𝐎𝐋𝐋𝐎𝐖 𝐎𝐔𝐑 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 𝐅𝐎𝐑 𝐔𝐏𝐃𝐀𝐓𝐄𝐒
-   https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F
-> 𝗧𝗔𝗣 𝗧𝗛𝗘 𝗟𝗜𝗡𝗞 𝗔𝗡𝗗 𝗙𝗢𝗟𝗟𝗢𝗪...
-╰─────────────────❒`;
+ 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇
+> Type [  ${prefixe}  Channel ] and follow our official *BELTAH-MD* channel . To get latest updates on this BOT.
+ ⁠⁠╰─────────────────❒`;
 
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
