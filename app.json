@@ -99,14 +99,19 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 for always online.2 to indicate that you are currently typing a message.3 to indicate that you are currently recording an audio.leave the field blank to indicate your real state.",
-    "value":"2",  
+    "value":"",  
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "no",
     "required": false
-  }
+  },
+  "PM_CHATBOT": {
+      "description": "Put yes if you want the bot to automatically respond to messages in private",
+      "required": false,
+      "value": "no"
+    }
   },
 
   "formation": {
