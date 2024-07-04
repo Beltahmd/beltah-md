@@ -46,7 +46,7 @@ const date = moment().format('DD/MM/YYYY');
 │❒⁠⁠⁠⁠│▸ *SAVER* : ${os.platform()}
 │❒⁠⁠⁠⁠│▸ *THEME* : *BELTAH KE*
 │❒⁠⁠⁠⁠╰──────────────✇
-╰──────────────────✇\n $(readmore)`;
+╰──────────────────✇\n${readmore}`;
     
 let menuMsg = `
 > Hello ${nomAuteurMessage},,, Type menu1,menu2 or menu3 to access a list of commands. 
