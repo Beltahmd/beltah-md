@@ -223,7 +223,7 @@ zokou({
     'nomCom': _0x65381a(0x101),
     'desc': _0x65381a(0x102) + _0x65381a(0xc7),
     'Categorie': _0x65381a(0xf3),
-    'reaction': '🏃‍♂️',
+    'reaction': '📡',
     'fromMe': _0x65381a(0xc6)
 }, async (_0x1c57c2, _0x592785, _0x282835) => {
     const _0x2a662b = _0x65381a, _0x754e53 = {
@@ -240,7 +240,7 @@ zokou({
     'nomCom': _0x65381a(0x119),
     'desc': _0x65381a(0x103) + _0x65381a(0x10c),
     'Categorie': _0x65381a(0xf3),
-    'reaction': '🕜',
+    'reaction': '🎭',
     'fromMe': _0x65381a(0xc6)
 }, async (_0x42052a, _0x2cadb5, _0x100e6b) => {
     const _0xa057a9 = _0x65381a, _0x222d40 = {
