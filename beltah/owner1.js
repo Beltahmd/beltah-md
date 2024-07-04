@@ -6,7 +6,7 @@ const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
-zokou({ nomCom: "owner", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "deployer", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -31,7 +31,7 @@ zokou({ nomCom: "owner", categorie: "General" }, async (dest, zk, commandeOption
 const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
-  let infoMsg =  `> Hello ${nomAuteurMessage}\n is my Charming good looking owner.\n`;
+  let infoMsg =  `> Hello ${nomAuteurMessage} you requested for my deployer😌\n *${s.OWNER_NAME}* is my Charming good looking deployer🍂💋.\n\n> Powered by Beltah Tech 254 🇰🇪`;
 
    var lien = mybotpic();
 
