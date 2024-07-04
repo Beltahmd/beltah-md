@@ -1,5 +1,7 @@
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-## BELTAH-MD V4.0.0
+## 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+## 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <div align="center">
@@ -11,7 +13,7 @@
 |----|
 
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=BELTAH-MD+V3.0.0+RESPONDS+FAST" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=BELTAH-MD+Is+Safe+on+Heroku" alt="">
 </p>
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-BELTAH TECH-red.svg?style=for-the-badge&logo=github"></a>
@@ -56,7 +58,7 @@
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## 4. DEPLOY BELTAH-MD ON HEROKU 
+## 4.DEPLOY BELTAH-MD (no ban) 
 <h1 align="center">
  
  ***[![DEPLOY NOW ON HEROKU](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Beltahmd/beltah-md&template=https://github.com/Beltahmd/beltah-md.git)***
