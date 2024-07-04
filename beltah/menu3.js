@@ -48,13 +48,11 @@ const date = moment().format('DD/MM/YYYY');
 │❒│⁠⁠⁠⁠ *THEME* : *BELTAH KE*
 ┬  ╰──────────────⬡
 ╰─── ···▸ *💰LIKE A BOSS💰* ··──⬡
-> ╭─────────────✣
-> 《《 *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V4.0.0* 》》
-> ╰─────────────✇\n\n\n${readmore}`;
+
+> 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐁𝐄𝐋𝐓𝐀𝐇 𝐓𝐄𝐂𝐇\n${readmore}`;
     
 let menuMsg = `
-
-
 *BELTAH-MD COMMANDS*${readmore}
 `;
 
@@ -70,7 +68,7 @@ let menuMsg = `
     menuMsg += `
 ╭─────────────⬡
 > |⏣THANK YOU FOR CHOOSING 
-> *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗*
+> 𝐁𝐄𝐋𝐓𝐀𝐇-𝐌𝐃 𝐕𝟒.𝟎.𝟎 𝐋𝐀𝐓𝐄𝐒𝐓
 ╰──────────────✇
 `;
 
