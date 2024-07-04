@@ -32,7 +32,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-*BELTAH-MD AVAILABLE MENUS* 
+*${s.BOT} AVAILABLE MENUS* 
 ╭─────────────────✣
 │❒⁠⁠⁠⁠╭─────────────✣
 │❒⁠⁠⁠⁠│▸ *MENU1* 
@@ -47,10 +47,8 @@ const date = moment().format('DD/MM/YYYY');
 ╰──────────────────✇\n`;
     
 let menuMsg = `
-╭─────────❒⁠⁠⁠⁠
-   *like a boss*
-╰─────────❒
-   ⁠⁠⁠⁠◔͜͡◔MADE EASY BY BELTAH◔͜͡◔
+> Hello ${nomAuteurMessage},,, Type menu1,menu2 or menu3 to access a list of commands. 
+  
 ╰───────────────────⏣`;
 
    var lien = mybotpic();
