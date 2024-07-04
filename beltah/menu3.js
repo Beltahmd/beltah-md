@@ -34,7 +34,9 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭────《《 ${s.BOT} 》》────⬡
 ┴  ╭─────────────⬡
-│❒⁠⁠⁠⁠│ *ADMIN* : ${s.OWNER_NAME}
+│❒│ *ADMIN* : ${s.OWNER_NAME}
+│❒│ *COMMANDER* : ${nomAuteurMessage} 
+│❒╰──────────────✇
 │❒│⁠⁠⁠⁠ *CALENDER* : ${date}
 │❒│⁠⁠⁠⁠ *PREFIX* : ${s.PREFIXE}
 │❒⁠⁠⁠⁠│⁠⁠⁠ *BOT IS IN* : ${mode} mode
@@ -43,19 +45,19 @@ const date = moment().format('DD/MM/YYYY');
 │❒│⁠⁠⁠⁠ *CHROME* : ${os.platform()}
 │❒│⁠⁠⁠⁠ *THEME* : *BELTAH KE*
 ┬  ╰──────────────⬡
-╰─── ···▸ *💰LIKE A BOSS💰* ··──⬡\n`;
+╰─── ···▸ *💰LIKE A BOSS💰* ··──⬡
+> ╭─────────────✣
+> 《《 *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V4.0.0* 》》
+> ╰─────────────✇\n\n\n`;
     
 let menuMsg = `
-> ╭───────────────✣
-> 《《 *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V4.0.0* 》》
-> ╰───────────────✇
 
 
- *✇BELTAH-MD COMMANDS✇*
+*BELTAH-MD COMMANDS*
 `;
 
     for (const cat in coms) {
-        menuMsg += ` ╭─⬡ *${cat}* ⬡─`;
+        menuMsg += `╭─⬡ *${cat}* ⬡─`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 ⬡│▸ ${cmd}`;
@@ -66,7 +68,7 @@ let menuMsg = `
     menuMsg += `
 ╭─────────────⬡
 > |⏣THANK YOU FOR CHOOSING 
->  *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗*
+> *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗*
 ╰──────────────✇
 `;
 
